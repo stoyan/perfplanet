@@ -198,5 +198,10 @@ var folks = [
   "blog": "http://zoompf.com/blog/",
   "name": "Zoompf",
   "feed": "http://zoompf.com/blog/feed/"
+},
+{
+  "blog": "http://www.sajalkayan.com/",
+  "name": "Sajal Kayan",
+  "feed": "http://www.sajalkayan.com/tag/site-performance/feed"
 }
 ];
