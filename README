@@ -1,2 +1,5 @@
 the thing that runs on perfplanet.com
 
+To contribute:
+ - edit tools/planetarium.json
+ - send a pull request or patch
