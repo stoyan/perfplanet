@@ -17,6 +17,9 @@ if (arguments[0] === 'html') {
   load('jsmin.js');
   load('planetarium.json');
 
+  folks.sort(function(a, b) {
+    return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+  });
   for(var i = 0, fella = folks[0]; i < folks.length; fella = folks[++i]) {
     list += '<li><a href="' + fella.blog + '">'+ fella.name +'</a></li>\n'; 
   }
