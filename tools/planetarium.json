@@ -135,9 +135,9 @@ var folks = [
   "feed": "http://tech.bluesmoon.info/feeds/posts/default/-/performance?alt=rss"
 },
 {
-  "blog": "http://www.ravelrumba.com/blog/",
+  "blog": "http://www.ravelrumba.com/",
   "name": "Rob Flaherty",
-  "feed": "http://www.ravelrumba.com/blog/category/Web%20Performance/feed/"
+  "feed": "http://www.ravelrumba.com/blog/category/web-performance/feed/"
 },
 {
   "blog": "http://www.ajaxperformance.com/",
