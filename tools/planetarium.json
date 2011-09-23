@@ -30,6 +30,11 @@ var folks = [
   "feed": "http://looksgoodworkswell.blogspot.com/feeds/posts/default/-/performance?alt=rss"
 },
 {
+  "blog": "http://www.brianp.net/category/webperf/",
+  "name": "Brian Pane",
+  "feed": "http://www.brianp.net/category/webperf/feed/"
+},
+{
   "blog": "http://www.artzstudio.com/",
   "name": "Dave Artz",
   "feed": "http://www.artzstudio.com/feed/"
