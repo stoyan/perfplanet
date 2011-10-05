@@ -213,5 +213,10 @@ var folks = [
   "blog": "http://www.sajalkayan.com/",
   "name": "Sajal Kayan",
   "feed": "http://www.sajalkayan.com/tag/site-performance/feed"
+},
+{
+  "blog": "http://blog.yottaa.com/",
+  "name": "Yottaa Blog",
+  "feed": "http://feeds.feedburner.com/webperformance-yottaa"
 }
 ];
