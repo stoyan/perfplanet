@@ -195,11 +195,6 @@ var folks = [
   "feed": "http://developer.yahoo.net/blog/archives/performance.xml"
 },
 {
-  "blog": "http://blog.yottaa.com/",
-  "name": "Yottaa",
-  "feed": "http://blog.yottaa.com/feed/"
-},
-{
   "blog": "http://yuiblog.com/",
   "name": "YUI blog",
   "feed": "http://feeds.yuiblog.com/yuiblog/performance"
