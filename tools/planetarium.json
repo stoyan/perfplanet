@@ -219,4 +219,9 @@ var folks = [
   "name": "Yottaa Blog",
   "feed": "http://feeds.feedburner.com/webperformance-yottaa"
 }
+{
+  "blog": "http://blog.catchpoint.com.com/",
+  "name": "Catchpoint Blog",
+  "feed": "http://blog.catchpoint.com/feed/"
+}
 ];
