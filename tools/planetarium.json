@@ -35,6 +35,11 @@ var folks = [
   "feed": "http://www.brianp.net/category/webperf/feed/"
 },
 {
+  "blog": "http://www.blaze.io/blog/",
+  "name": "Blaze",
+  "feed": "http://www.blaze.io/blog/feed/"
+},
+{
   "blog": "http://www.artzstudio.com/",
   "name": "Dave Artz",
   "feed": "http://www.artzstudio.com/feed/"
