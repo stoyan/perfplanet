@@ -218,5 +218,10 @@ var folks = [
   "blog": "http://blog.yottaa.com/",
   "name": "Yottaa Blog",
   "feed": "http://feeds.feedburner.com/webperformance-yottaa"
+},
+{
+  "blog": "http://www.cdnplanet.com/blog/",
+  "name": "CDN Planet Blog",
+  "feed": "http://www.cdnplanet.com/blog/tag/performance/feed/"
 }
 ];
