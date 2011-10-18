@@ -223,9 +223,9 @@ var folks = [
   "blog": "http://www.cdnplanet.com/blog/",
   "name": "CDN Planet Blog",
   "feed": "http://www.cdnplanet.com/blog/tag/performance/feed/"
-}
+},
 {
-  "blog": "http://blog.catchpoint.com.com/",
+  "blog": "http://blog.catchpoint.com/",
   "name": "Catchpoint Blog",
   "feed": "http://blog.catchpoint.com/feed/"
 }
