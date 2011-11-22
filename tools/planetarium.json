@@ -195,6 +195,11 @@ var folks = [
   "feed": "http://gent.ilcore.com/feeds/posts/default"
 },
 {
+  "blog": "http://torbit.com/blog/",
+  "name": "Torbit",
+  "feed": "http://feeds.feedburner.com/torbit"
+},
+{
   "blog": "http://developer.yahoo.com/",
   "name": "Yahoo Developer Network",
   "feed": "http://developer.yahoo.net/blog/archives/performance.xml"
