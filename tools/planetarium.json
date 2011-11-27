@@ -233,5 +233,10 @@ var folks = [
   "blog": "http://blog.catchpoint.com/",
   "name": "Catchpoint Blog",
   "feed": "http://blog.catchpoint.com/feed/"
+}.
+{
+  "blog": "http://statichtml.com/tags/wpo/",
+  "name": "Steve Webster",
+  "feed": "http://statichtml.com/feed/wpo.atom"
 }
 ];
