@@ -40,6 +40,11 @@ var folks = [
   "feed": "http://www.blaze.io/blog/feed/"
 },
 {
+  "blog": "http://www.colinmcdermott.co.uk/",
+  "name": "Colin McDermott",
+  "feed": "http://www.colinmcdermott.co.uk/feed/"
+},
+{
   "blog": "http://www.artzstudio.com/",
   "name": "Dave Artz",
   "feed": "http://www.artzstudio.com/feed/"
