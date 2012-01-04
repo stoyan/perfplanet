@@ -234,4 +234,9 @@ var folks = [
   "name": "Catchpoint Blog",
   "feed": "http://blog.catchpoint.com/feed/"
 }
+{
+  "blog": "http://www.perftesting.co.uk",
+  "name": "Performance Testing Professional",
+  "feed": "http://www.perftesting.co.uk/feed/"
+}
 ];
