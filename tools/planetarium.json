@@ -2,7 +2,8 @@ var folks = [
 {
   "blog": "http://www.aaronpeters.nl/blog/",
   "name": "Aaron Peters",
-  "feed": "http://feeds.feedburner.com/aaronpeters"
+  "feed": "http://feeds.feedburner.com/aaronpeters",
+  "twitter": "aaronpeters"
 },
 {
   "blog": "http://www.websiteoptimization.com/",
@@ -12,37 +13,44 @@ var folks = [
 {
   "blog": "http://www.aptimize.com/blog/",
   "name": "Aptimize",
-  "feed": "http://feeds.feedburner.com/aptimize"
+  "feed": "http://feeds.feedburner.com/aptimize",
+  "twitter": "aptimize"
 },
 {
   "blog": "http://ajaxian.com/by/topic/performance/",
   "name": "Ajaxian",
-  "feed": "http://ajaxian.com/by/topic/performance/feed/"
+  "feed": "http://ajaxian.com/by/topic/performance/feed/",
+  "twitter": "ajaxian"
 },
 {
   "blog": "http://www.adequatelygood.com/tag/performance",
   "name": "Ben Cherry",
-  "feed": "http://feeds.feedburner.com/adequatelygood/performance"
+  "feed": "http://feeds.feedburner.com/adequatelygood/performance",
+  "twitter": "bcherry"
 },
 {
   "blog": "http://looksgoodworkswell.blogspot.com/",
   "name": "Bill Scott",
-  "feed": "http://looksgoodworkswell.blogspot.com/feeds/posts/default/-/performance?alt=rss"
+  "feed": "http://looksgoodworkswell.blogspot.com/feeds/posts/default/-/performance?alt=rss",
+  "twitter": "billwscott"
 },
 {
   "blog": "http://www.brianp.net/category/webperf/",
   "name": "Brian Pane",
-  "feed": "http://www.brianp.net/category/webperf/feed/"
+  "feed": "http://www.brianp.net/category/webperf/feed/",
+  "twitter": "brianpane"
 },
 {
   "blog": "http://www.blaze.io/blog/",
   "name": "Blaze",
-  "feed": "http://www.blaze.io/blog/feed/"
+  "feed": "http://www.blaze.io/blog/feed/",
+  "twitter": "blazeio"
 },
 {
   "blog": "http://www.artzstudio.com/",
   "name": "Dave Artz",
   "feed": "http://www.artzstudio.com/feed/"
+  "twitter": "daveartz"
 },
 {
   "blog": "http://graphicsoptimization.com/blog/",
@@ -52,32 +60,38 @@ var folks = [
 {
   "blog": "http://blog.dynatrace.com/tag/ajax/",
   "name": "dynaTrace",
-  "feed": "http://blog.dynatrace.com/feed/"
+  "feed": "http://blog.dynatrace.com/feed/",
+  "twitter": "dynatrace"
 },
 {
   "blog": "http://www.ejeliot.com/",
   "name": "Ed Eliot",
-  "feed": "http://feeds.feedburner.com/ejeliot/blog-rss"
+  "feed": "http://feeds.feedburner.com/ejeliot/blog-rss",
+  "twitter": "ejeliot"
 },
 {
   "blog": "http://ericgoldsmith.com/",
   "name": "Eric Goldsmith",
-  "feed": "http://ericgoldsmith.com/feed/"
+  "feed": "http://ericgoldsmith.com/feed/",
+  "twitter": "goldsmitheric"
 },
 {
   "blog": "http://googlecode.blogspot.com/search/label/faster%20web",
   "name": "Google code",
-  "feed": "http://googlecode.blogspot.com/feeds/posts/default/-/faster%20web?alt=rss"
+  "feed": "http://googlecode.blogspot.com/feeds/posts/default/-/faster%20web?alt=rss",
+  "twitter": "googledevs"
 },
 {
   "blog": "http://hedgerwow.blogspot.com/",
   "name": "Hedger Wang",
-  "feed": "http://hedgerwow.blogspot.com/feeds/posts/default?alt=rss"
+  "feed": "http://hedgerwow.blogspot.com/feeds/posts/default?alt=rss",
+  "twitter": "hedgerwang"
 },
 {
   "blog": "http://blog.httpwatch.com/",
   "name": "HTTPWatch",
-  "feed": "http://blog.httpwatch.com/feed/"
+  "feed": "http://blog.httpwatch.com/feed/",
+  "twitter": "httpwatch"
 },
 {
   "blog": "http://javascriptrules.com",
@@ -87,12 +101,14 @@ var folks = [
 {
   "blog": "http://ejohn.org/",
   "name": "John Resig",
-  "feed": "http://feeds.feedburner.com/JohnResig"
+  "feed": "http://feeds.feedburner.com/JohnResig",
+  "twitter": "jeresig"
 },
 {
   "blog": "http://www.webperformancetoday.com/",
   "name": "Joshua Bixby",
-  "feed": "http://www.webperformancetoday.com/feed/"
+  "feed": "http://www.webperformancetoday.com/feed/",
+  "twitter": "joshuabixby"
 },
 {
   "blog": "http://blogs.msdn.com/jscript/",
@@ -102,37 +118,44 @@ var folks = [
 {
   "blog": "http://www.julienlecomte.net/",
   "name": "Julien Lecomte",
-  "feed": "http://www.julienlecomte.net/blog/category/web-development/feed/"
+  "feed": "http://www.julienlecomte.net/blog/category/web-development/feed/",
+  "twitter": "powersander"
 },
 {
   "blog": "http://www.kylescholz.com/blog/",
   "name": "Kyle Scholz",
-  "feed": "http://feeds.feedburner.com/kylescholz"
+  "feed": "http://feeds.feedburner.com/kylescholz",
+  "twitter": "kylescholz"
 },
 {
   "blog": "http://blog.getify.com/tag/performance/",
   "name": "Kyle Simpson",
-  "feed": "http://blog.getify.com/tag/performance/feed/"
+  "feed": "http://blog.getify.com/tag/performance/feed/",
+  "twitter": "getify"
 },
 {
   "blog": "http://webforscher.wordpress.com",
   "name": "Markus Leptien",
-  "feed": "http://webforscher.wordpress.com/category/web-performance/feed/"
+  "feed": "http://webforscher.wordpress.com/category/web-performance/feed/",
+  "twitter": "leptienm"
 },
 {
   "blog": "http://www.nczonline.net/",
   "name": "Nicholas Zakas",
-  "feed": "http://www.nczonline.net/blog/?tag=performance&feed=rss2"
+  "feed": "http://www.nczonline.net/blog/?tag=performance&feed=rss2",
+  "twitter": "slicknet"
 },
 {
   "blog": "http://www.stubbornella.org/",
   "name": "Nicole Sullivan",
-  "feed": "http://www.stubbornella.org/content/category/general/geek/performance-geek-general/feed/"
+  "feed": "http://www.stubbornella.org/content/category/general/geek/performance-geek-general/feed/",
+  "twitter": "stubbornella"
 },
 {
   "blog": "http://blog.patrickmeenan.com/",
   "name": "Patrick Meenan",
-  "feed": "http://blog.patrickmeenan.com/feeds/posts/default?alt=rss"
+  "feed": "http://blog.patrickmeenan.com/feeds/posts/default?alt=rss",
+  "twitter": "patmeenan"
 },
 {
   "blog": "http://calendar.perfplanet.com",
@@ -142,12 +165,14 @@ var folks = [
 {
   "blog": "http://tech.bluesmoon.info/",
   "name": "Philip Telis",
-  "feed": "http://tech.bluesmoon.info/feeds/posts/default/-/performance?alt=rss"
+  "feed": "http://tech.bluesmoon.info/feeds/posts/default/-/performance?alt=rss",
+  "twitter": "bluesmoon"
 },
 {
   "blog": "http://www.ravelrumba.com/",
   "name": "Rob Flaherty",
-  "feed": "http://www.ravelrumba.com/blog/category/web-performance/feed/"
+  "feed": "http://www.ravelrumba.com/blog/category/web-performance/feed/",
+  "twitter": "robflaherty"
 },
 {
   "blog": "http://www.ajaxperformance.com/",
@@ -157,81 +182,97 @@ var folks = [
 {
   "blog": "http://wonko.com/",
   "name": "Ryan Grove",
-  "feed": "http://wonko.com/tag/atom/performance"
+  "feed": "http://wonko.com/tag/atom/performance",
+  "twitter": "yaypie"
 },
 {
   "blog": "http://www.sergeychernyshev.com/blog/",
   "name": "Sergey Chernyshev",
-  "feed": "http://feeds.showslow.com/ShowSlowBlog"
+  "feed": "http://feeds.showslow.com/ShowSlowBlog",
+  "twitter": "sergeyche"
 },
 {
   "blog": "http://www.sitepen.com/",
   "name": "SitePen",
-  "feed": "http://www.sitepen.com/blog/category/performance/feed/"
+  "feed": "http://www.sitepen.com/blog/category/performance/feed/",
+  "twitter": "sitepen"
 },
 {
   "blog": "http://www.stevesouders.com/blog/",
   "name": "Steve Souders",
-  "feed": "http://www.stevesouders.com/blog/feed/"
+  "feed": "http://www.stevesouders.com/blog/feed/",
+  "twitter": "souders"
 },
 {
   "blog": "http://phpied.com/",
   "name": "Stoyan Stefanov",
-  "feed": "http://www.phpied.com/category/performance/feed/"
+  "feed": "http://www.phpied.com/category/performance/feed/",
+  "twitter": "stoyanstefanov"
 },
 {
   "blog": "http://muffinresearch.co.uk/",
   "name": "Stuart Colville",
-  "feed": "http://muffinresearch.co.uk/archives/category/performance/feed/"
+  "feed": "http://muffinresearch.co.uk/archives/category/performance/feed/",
+  "twitter": "muffinresearch"
 },
 {
   "blog": "http://timkadlec.com/category/performance/",
   "name": "Tim Kadlec",
-  "feed": "http://timkadlec.com/category/performance/feed/"
+  "feed": "http://timkadlec.com/category/performance/feed/",
+  "twitter": "timkadlec"
 },
 {
   "blog": "http://gent.ilcore.com/",
   "name": "Tony Gentilcore",
-  "feed": "http://gent.ilcore.com/feeds/posts/default"
+  "feed": "http://gent.ilcore.com/feeds/posts/default",
+  "twitter": "tonygentilcore"
 },
 {
   "blog": "http://torbit.com/blog/",
   "name": "Torbit",
-  "feed": "http://feeds.feedburner.com/torbit"
+  "feed": "http://feeds.feedburner.com/torbit",
+  "twitter": "torbit"
 },
 {
   "blog": "http://developer.yahoo.com/",
   "name": "Yahoo Developer Network",
-  "feed": "http://developer.yahoo.net/blog/archives/performance.xml"
+  "feed": "http://developer.yahoo.net/blog/archives/performance.xml",
+  "twiter": "ydn"
 },
 {
   "blog": "http://yuiblog.com/",
   "name": "YUI blog",
-  "feed": "http://feeds.yuiblog.com/yuiblog/performance"
+  "feed": "http://feeds.yuiblog.com/yuiblog/performance",
+  "twitter": "yuilibrary"
 },
 {
   "blog": "http://zoompf.com/blog/",
   "name": "Zoompf",
-  "feed": "http://zoompf.com/blog/feed/"
+  "feed": "http://zoompf.com/blog/feed/",
+  "twitter": "zoompf"
 },
 {
   "blog": "http://www.sajalkayan.com/",
   "name": "Sajal Kayan",
-  "feed": "http://www.sajalkayan.com/tag/site-performance/feed"
+  "feed": "http://www.sajalkayan.com/tag/site-performance/feed",
+  "twitter": "sajal"
 },
 {
   "blog": "http://blog.yottaa.com/",
   "name": "Yottaa Blog",
-  "feed": "http://feeds.feedburner.com/webperformance-yottaa"
+  "feed": "http://feeds.feedburner.com/webperformance-yottaa",
+  "twitter": "yottaa"
 },
 {
   "blog": "http://www.cdnplanet.com/blog/",
   "name": "CDN Planet Blog",
-  "feed": "http://www.cdnplanet.com/blog/tag/performance/feed/"
+  "feed": "http://www.cdnplanet.com/blog/tag/performance/feed/",
+  "twitter": "cdnplanet"
 },
 {
   "blog": "http://blog.catchpoint.com/",
   "name": "Catchpoint Blog",
-  "feed": "http://blog.catchpoint.com/feed/"
+  "feed": "http://blog.catchpoint.com/feed/",
+  "twitter": "catchpoint"
 }
 ];
