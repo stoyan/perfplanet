@@ -276,3 +276,9 @@ var folks = [
   "twitter": "catchpoint"
 }
 ];
+  "blog": "http://blog.intechnica.co.uk/",
+  "name": "Intechnica Blog",
+  "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
+  "twitter": "intechnica"
+}
+];
