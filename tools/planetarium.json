@@ -274,5 +274,11 @@ var folks = [
   "name": "Catchpoint Blog",
   "feed": "http://blog.catchpoint.com/feed/",
   "twitter": "catchpoint"
+},
+{
+  "blog": "http://blog.jphpsf.com/",
+  "name": "JP's Performance Blog",
+  "feed": "http://feeds.feedburner.com/CategoryPerformanceJpsBlog",
+  "twitter": "jphpsf"
 }
 ];
