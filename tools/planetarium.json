@@ -277,8 +277,8 @@ var folks = [
 },
 {
   "blog": "http://blog.jphpsf.com/",
-  "name": "JP's Performance Blog",
-  "feed": "http://feeds.feedburner.com/CategoryPerformanceJpsBlog",
+  "name": "JP's Blog",
+  "feed": "http://feeds.feedburner.com/jphpsf-perf-blog",
   "twitter": "jphpsf"
 }
 ];
