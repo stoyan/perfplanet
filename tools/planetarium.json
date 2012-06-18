@@ -96,7 +96,7 @@ var folks = [
 {
   "blog": "http://javascriptrules.com",
   "name": "JavaScript Rules",
-  "feed": "http://feeds2.feedburner.com/JavaScriptRules_performance"
+  "feed": "http://javascriptrules.com/category/performance.xml"
 },
 {
   "blog": "http://ejohn.org/",
