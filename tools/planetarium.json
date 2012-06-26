@@ -280,5 +280,11 @@ var folks = [
   "name": "JP's Blog",
   "feed": "http://feeds.feedburner.com/jphpsf-perf-blog",
   "twitter": "jphpsf"
+},
+{
+  "blog": "http://www.lognormal.com/blog/",
+  "name": "a normal log",
+  "feed": "http://feeds.feedburner.com/lognormal",
+  "twitter": "log_normal"
 }
 ];
