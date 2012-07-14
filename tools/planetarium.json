@@ -49,7 +49,7 @@ var folks = [
 {
   "blog": "http://www.artzstudio.com/",
   "name": "Dave Artz",
-  "feed": "http://www.artzstudio.com/feed/"
+  "feed": "http://www.artzstudio.com/feed/",
   "twitter": "daveartz"
 },
 {
