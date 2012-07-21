@@ -49,6 +49,6 @@ if (arguments[0] === 'html') {
   }
   var yql = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20in%20(' + encodeURIComponent(list.join(',')) + ')' +
             '%20%7C%20sort(field%3D%22pubDate%22%2C%20descending%3D%22true%22)%20%7C%20unique(field%3D%22link%22)%20%7C%20truncate(count%3D20)' +
-            '&format=json&callback=render';
-  print('curl "' + yql + '" > data.js');
+            '&format=json';
+  print(yql);
 }
