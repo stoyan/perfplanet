@@ -293,4 +293,9 @@ var folks = [
   "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
   "twitter": "intechnica"
 }
+{
+  "blog": "http://www.perftesting.co.uk",
+  "name": "Performance Testing Professional",
+  "feed": "http://www.perftesting.co.uk/feed/"
+}
 ];
