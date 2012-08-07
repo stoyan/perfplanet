@@ -9,7 +9,7 @@ then
   cat data.json >> data.tmp
   echo ");" >> data.tmp
   mv data.tmp data.js
-  /usr/bin/php createRss.php 
+  php createRss.php 
 else
   echo Problem fetching JSON data from YQL 1>&2
 fi
