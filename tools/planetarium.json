@@ -82,6 +82,11 @@ var folks = [
   "twitter": "googledevs"
 },
 {
+  "blog": "http://jetnexus.blogspot.com/",
+  "name": "jetNEXUS",
+  "feed": "http://jetnexus.blogspot.com/feeds/posts/default"
+},
+{
   "blog": "http://hedgerwow.blogspot.com/",
   "name": "Hedger Wang",
   "feed": "http://hedgerwow.blogspot.com/feeds/posts/default?alt=rss",
