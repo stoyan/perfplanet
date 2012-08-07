@@ -288,3 +288,9 @@ var folks = [
   "twitter": "log_normal"
 }
 ];
+  "blog": "http://blog.intechnica.co.uk/",
+  "name": "Intechnica Blog",
+  "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
+  "twitter": "intechnica"
+}
+];
