@@ -17,12 +17,6 @@ var folks = [
   "twitter": "aptimize"
 },
 {
-  "blog": "http://ajaxian.com/by/topic/performance/",
-  "name": "Ajaxian",
-  "feed": "http://ajaxian.com/by/topic/performance/feed/",
-  "twitter": "ajaxian"
-},
-{
   "blog": "http://www.adequatelygood.com/tag/performance",
   "name": "Ben Cherry",
   "feed": "http://feeds.feedburner.com/adequatelygood/performance",
@@ -283,11 +277,11 @@ var folks = [
 },
 {
   "blog": "http://www.lognormal.com/blog/",
-  "name": "a normal log",
+  "name": "LogNormal",
   "feed": "http://feeds.feedburner.com/lognormal",
   "twitter": "log_normal"
-}
-];
+},
+{
   "blog": "http://blog.intechnica.co.uk/",
   "name": "Intechnica Blog",
   "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",

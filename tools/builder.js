@@ -5,6 +5,14 @@ if (!arguments[0]) {
     quit();
 }
 
+try {
+  load('planetarium.json');
+} catch (e) {
+  print('error in the JSON data, them damn commas!');
+  quit();
+}
+
+
 if (arguments[0] === 'html') {
 
   var template = arguments[1],
@@ -15,7 +23,6 @@ if (arguments[0] === 'html') {
 
   load('cssmin.js');
   load('jsmin.js');
-  load('planetarium.json');
 
   folks.sort(function(a, b) {
     return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
@@ -40,8 +47,6 @@ if (arguments[0] === 'html') {
 
   print(result);
 } else {
-  
-  load('planetarium.json');
 
   var list = [];
   for(var i = 0; i < folks.length; i++) {
