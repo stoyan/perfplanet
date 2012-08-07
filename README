@@ -1,5 +1,15 @@
-the thing that runs on perfplanet.com
+the thing that runs perfplanet.com
 
 To contribute:
  - edit tools/planetarium.json
  - send a pull request or patch
+ 
+To build:
+
+$ cd tools
+$ sh build.sh
+
+Prerequisite to building - JSC:
+
+(on a mac)
+$ sudo ln -F /System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc /usr/bin
