@@ -134,6 +134,12 @@ var folks = [
   "twitter": "leptienm"
 },
 {
+  "blog": "http://blog.newrelic.com/",
+  "name": "New Relic",
+  "feed": "http://blog.newrelic.com/category/performance-tech-tips/feed/",
+  "twitter": "newrelic"
+},
+{
   "blog": "http://www.nczonline.net/",
   "name": "Nicholas Zakas",
   "feed": "http://www.nczonline.net/blog/?tag=performance&feed=rss2",
