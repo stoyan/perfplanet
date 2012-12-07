@@ -292,5 +292,10 @@ var folks = [
   "name": "Intechnica Blog",
   "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
   "twitter": "intechnica"
+},
+{
+  "blog": "https://insouciant.org/",
+  "name": "Insouciant | William Chan",
+  "feed": "https://insouciant.org/feed/"
 }
 ];
