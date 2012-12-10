@@ -105,6 +105,12 @@ var folks = [
   "twitter": "joshuabixby"
 },
 {
+  "blog": "http://modpagespeed.jmarantz.com/",
+  "name": "Joshua Marantz",
+  "feed": "http://modpagespeed.jmarantz.com/feeds/3579424923266508462/comments/default",
+  "twitter": "jmarantz"
+},
+{
   "blog": "http://blogs.msdn.com/jscript/",
   "name": "JScript blog",
   "feed": "http://blogs.msdn.com/jscript/rss_tag_JavaScript+Performance+IE.xml"
