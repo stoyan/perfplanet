@@ -6,6 +6,12 @@ var folks = [
   "twitter": "aaronpeters"
 },
 {
+  "blog": "http://webreflection.blogspot.com/",
+  "name": "Andrea Giammarchi",
+  "feed": "http://feeds.feedburner.com/WebReflection",
+  "twitter": "WebReflection"
+},
+{
   "blog": "http://www.websiteoptimization.com/",
   "name": "Andrew King",
   "feed": "http://www.websiteoptimization.com/atom.xml"
