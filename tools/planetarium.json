@@ -303,5 +303,11 @@ var folks = [
   "blog": "https://insouciant.org/",
   "name": "Insouciant | William Chan",
   "feed": "https://insouciant.org/feed/"
+},
+{
+  "blog": "http://tobias.is/geeky/webperf/",
+  "name": "Tobias Baldauf",
+  "feed": "http://tobias.is/webperf/feed/",
+  "twitter": "tbaldauf"
 }
 ];
