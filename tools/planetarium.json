@@ -316,4 +316,10 @@ var folks = [
   "feed": "http://tobias.is/webperf/feed/",
   "twitter": "tbaldauf"
 }
+{
+  "blog": "http://www.cdn-advisor.com",
+  "name": "CDN-Advisor.com Blog",
+  "feed": "http://www.cdn-advisor.com/feed/",
+  "twitter": "cdnadvisor"
+},
 ];
