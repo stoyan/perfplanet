@@ -183,7 +183,7 @@ var folks = [
 {
   "blog": "http://jrvis.com/blog/",
   "name": "Rick Viscomi",
-  "feed": "http://jrvis.com/blog/feed/",
+  "feed": "http://jrvis.com/blog/category/web-performance/feed/",
   "twitter": "rick_viscomi"
 },
 {
