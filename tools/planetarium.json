@@ -181,6 +181,12 @@ var folks = [
   "twitter": "bluesmoon"
 },
 {
+  "blog": "http://jrvis.com/blog/",
+  "name": "Rick Viscomi",
+  "feed": "http://jrvis.com/blog/feed/",
+  "twitter": "rick_viscomi"
+},
+{
   "blog": "http://www.ravelrumba.com/",
   "name": "Rob Flaherty",
   "feed": "http://www.ravelrumba.com/blog/category/web-performance/feed/",
