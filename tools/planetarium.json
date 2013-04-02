@@ -315,5 +315,11 @@ var folks = [
   "name": "Tobias Baldauf",
   "feed": "http://tobias.is/webperf/feed/",
   "twitter": "tbaldauf"
+},
+{
+  "blog": "http://andrelion.github.com/blog/",
+  "name": "Andre's GitHublog",
+  "feed": "http://andrelion.github.com/blog/rss.xml",
+  "twitter": "AndreLion"
 }
 ];
