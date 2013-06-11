@@ -317,3 +317,33 @@ var folks = [
   "twitter": "tbaldauf"
 }
 ];
+  "blog": "http://internetperformanceexpert.wordpress.com/",
+  "name": "Andy Still",
+  "feed": "http://internetperformanceexpert.wordpress.com/feed/",
+  "twitter": "andy_still"
+}
+];
+  "blog": "http://ianmolyneaux.wordpress.com",
+  "name": "Ian Molyneaux",
+  "feed": "http://ianmolyneaux.wordpress.com/feed/",
+  "twitter": "ianmoly"
+}
+];
+  "blog": "http://larryhaig.wordpress.com",
+  "name": "Larry Haig",
+  "feed": "http://larryhaig.wordpress.com/feed/",
+  "twitter": "intechnica"
+}
+];
+  "blog": "http://ianmolyneaux.wordpress.com",
+  "name": "Ian Molyneaux",
+  "feed": "http://ianmolyneaux.wordpress.com/feed/",
+  "twitter": "ianmoly"
+}
+];
+  "blog": "http://www.perftesting.co.uk",
+  "name": "Performance Testing Professional",
+  "feed": "http://feeds.feedburner.com/PerformanceTestingProfessional",
+  "twitter": "PerfTestingUK"
+}
+];
