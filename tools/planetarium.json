@@ -315,5 +315,11 @@ var folks = [
   "name": "Tobias Baldauf",
   "feed": "http://tobias.is/webperf/feed/",
   "twitter": "tbaldauf"
+},
+{
+  "blog": "http://www.performsncebydesign.co.uk/",
+  "name": "Performance by Design",
+  "feed": "http://feeds.feedburner.com/pbdfeed",
+  "twitter": "PerformByDesign"
 }
 ];
