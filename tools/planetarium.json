@@ -315,5 +315,11 @@ var folks = [
   "name": "Tobias Baldauf",
   "feed": "http://tobias.is/webperf/feed/",
   "twitter": "tbaldauf"
+},
+{
+  "blog": "http://rigor.com/blog/",
+  "name": "Rigor Web Performance",
+  "feed": "http://rigor.com/feed/",
+  "twitter": "teamrigor"
 }
 ];
