@@ -17,34 +17,10 @@ var folks = [
   "feed": "http://www.websiteoptimization.com/atom.xml"
 },
 {
-  "blog": "http://www.aptimize.com/blog/",
-  "name": "Aptimize",
-  "feed": "http://feeds.feedburner.com/aptimize",
-  "twitter": "aptimize"
-},
-{
-  "blog": "http://www.adequatelygood.com/tag/performance",
-  "name": "Ben Cherry",
-  "feed": "http://feeds.feedburner.com/adequatelygood/performance",
-  "twitter": "bcherry"
-},
-{
-  "blog": "http://looksgoodworkswell.blogspot.com/",
-  "name": "Bill Scott",
-  "feed": "http://looksgoodworkswell.blogspot.com/feeds/posts/default/-/performance?alt=rss",
-  "twitter": "billwscott"
-},
-{
   "blog": "http://www.brianp.net/category/webperf/",
   "name": "Brian Pane",
   "feed": "http://www.brianp.net/category/webperf/feed/",
   "twitter": "brianpane"
-},
-{
-  "blog": "http://www.blaze.io/blog/",
-  "name": "Blaze",
-  "feed": "http://www.blaze.io/blog/feed/",
-  "twitter": "blazeio"
 },
 {
   "blog": "http://www.artzstudio.com/",
@@ -122,12 +98,6 @@ var folks = [
   "feed": "http://blogs.msdn.com/jscript/rss_tag_JavaScript+Performance+IE.xml"
 },
 {
-  "blog": "http://www.julienlecomte.net/",
-  "name": "Julien Lecomte",
-  "feed": "http://www.julienlecomte.net/blog/category/web-development/feed/",
-  "twitter": "powersander"
-},
-{
   "blog": "http://www.kylescholz.com/blog/",
   "name": "Kyle Scholz",
   "feed": "http://feeds.feedburner.com/kylescholz",
@@ -187,17 +157,6 @@ var folks = [
   "twitter": "robflaherty"
 },
 {
-  "blog": "http://www.ajaxperformance.com/",
-  "name": "Ryan Breen",
-  "feed": "http://feeds.feedburner.com/AjaxPerformance"
-},
-{
-  "blog": "http://wonko.com/",
-  "name": "Ryan Grove",
-  "feed": "http://wonko.com/tag/atom/performance",
-  "twitter": "yaypie"
-},
-{
   "blog": "http://www.sergeychernyshev.com/blog/",
   "name": "Sergey Chernyshev",
   "feed": "http://feeds.showslow.com/ShowSlowBlog",
@@ -244,12 +203,6 @@ var folks = [
   "name": "Torbit",
   "feed": "http://feeds.feedburner.com/torbit",
   "twitter": "torbit"
-},
-{
-  "blog": "http://developer.yahoo.com/",
-  "name": "Yahoo Developer Network",
-  "feed": "http://developer.yahoo.net/blog/archives/performance.xml",
-  "twiter": "ydn"
 },
 {
   "blog": "http://yuiblog.com/",
