@@ -315,5 +315,11 @@ var folks = [
   "name": "Tobias Baldauf",
   "feed": "http://tobias.is/webperf/feed/",
   "twitter": "tbaldauf"
+},
+{
+  "blog": "http://royal.pingdom.com/category/performance-2",
+  "name": "Pingdom",
+  "feed": "http://feeds.feedburner.com/pingdomwebperformance",
+  "twitter": "pingdom"
 }
 ];
