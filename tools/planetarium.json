@@ -81,12 +81,6 @@ var folks = [
   "twitter": "jeresig"
 },
 {
-  "blog": "http://www.webperformancetoday.com/",
-  "name": "Joshua Bixby",
-  "feed": "http://www.webperformancetoday.com/feed/",
-  "twitter": "joshuabixby"
-},
-{
   "blog": "http://modpagespeed.jmarantz.com/",
   "name": "Joshua Marantz",
   "feed": "http://modpagespeed.jmarantz.com/feeds/3579424923266508462/comments/default",
@@ -114,12 +108,6 @@ var folks = [
   "name": "Markus Leptien",
   "feed": "http://webforscher.wordpress.com/category/web-performance/feed/",
   "twitter": "leptienm"
-},
-{
-  "blog": "http://blog.newrelic.com/",
-  "name": "New Relic",
-  "feed": "http://blog.newrelic.com/category/performance-tech-tips/feed/",
-  "twitter": "newrelic"
 },
 {
   "blog": "http://www.nczonline.net/",
