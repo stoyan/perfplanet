@@ -268,5 +268,11 @@ var folks = [
   "name": "Pingdom",
   "feed": "http://feeds.feedburner.com/pingdomwebperformance",
   "twitter": "pingdom"
+},
+{
+  "blog": "http://www.performancebydesign.co.uk/",
+  "name": "Performance by Design",
+  "feed": "http://feeds.feedburner.com/pbdfeed",
+  "twitter": "PerformByDesign"
 }
 ];
