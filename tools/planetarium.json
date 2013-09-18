@@ -110,6 +110,12 @@ var folks = [
   "twitter": "leptienm"
 },
 {
+  "blog": "http://community.nccgroup-webperf.com/blog/",
+  "name": "NCC Group Web Performance Blog",
+  "feed": "http://community.nccgroup-webperf.com/feed/",
+  "twitter": "NCCGrouptesting"
+},
+{
   "blog": "http://www.nczonline.net/",
   "name": "Nicholas Zakas",
   "feed": "http://www.nczonline.net/blog/?tag=performance&feed=rss2",
