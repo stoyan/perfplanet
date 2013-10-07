@@ -268,5 +268,11 @@ var folks = [
   "name": "Pingdom",
   "feed": "http://feeds.feedburner.com/pingdomwebperformance",
   "twitter": "pingdom"
+},
+{
+  "blog": "http://bbinto.wordpress.com",
+  "name": "Barbara Bermes",
+  "feed": "http://bbinto.wordpress.com/feed",
+  "twitter": "bbinto"
 }
 ];
