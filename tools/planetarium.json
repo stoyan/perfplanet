@@ -109,6 +109,11 @@ var folks = [
   "feed": "http://webforscher.wordpress.com/category/web-performance/feed/",
   "twitter": "leptienm"
 },
+  "blog": "http://techblog.move.com/?tag=performance",
+  "name": "Move Inc",
+  "feed": "http://techblog.move.com/?feed=rss2",
+  "twitter": "s_abbaspour"
+},
 {
   "blog": "http://www.nczonline.net/",
   "name": "Nicholas Zakas",
