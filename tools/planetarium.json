@@ -274,5 +274,10 @@ var folks = [
   "name": "Barbara Bermes",
   "feed": "http://bbinto.wordpress.com/feed",
   "twitter": "bbinto"
+},
+{
+  "blog": "http://lampe2e.blogspot.co.uk/",
+  "name": "Colin McKinnon",
+  "feed": "http://lampe2e.blogspot.com/feeds/posts/default"
 }
 ];
