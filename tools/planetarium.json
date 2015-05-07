@@ -169,6 +169,12 @@ var folks = [
   "twitter": "souders"
 },
 {
+  "blog": "http://www.paulirish.com/",
+  "name": "Paul Irish",
+  "feed": "http://feeds.feedburner.com/paul-irish",
+  "twitter": "paul_irish"
+},
+{
   "blog": "http://phpied.com/",
   "name": "Stoyan Stefanov",
   "feed": "http://www.phpied.com/category/performance/feed/",
