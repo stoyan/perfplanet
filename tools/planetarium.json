@@ -128,6 +128,12 @@ var folks = [
   "twitter": "patmeenan"
 },
 {
+  "blog": "http://www.paulirish.com/",
+  "name": "Paul Irish",
+  "feed": "http://feeds.feedburner.com/paul-irish",
+  "twitter": "paul_irish"
+},
+{
   "blog": "http://calendar.perfplanet.com",
   "name": "PerfPlanet calendar",
   "feed": "http://calendar.perfplanet.com/feed/"
@@ -167,12 +173,6 @@ var folks = [
   "name": "Steve Souders",
   "feed": "http://www.stevesouders.com/blog/feed/",
   "twitter": "souders"
-},
-{
-  "blog": "http://www.paulirish.com/",
-  "name": "Paul Irish",
-  "feed": "http://feeds.feedburner.com/paul-irish",
-  "twitter": "paul_irish"
 },
 {
   "blog": "http://phpied.com/",
