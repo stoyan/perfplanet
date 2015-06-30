@@ -280,5 +280,11 @@ var folks = [
   "name": "Barbara Bermes",
   "feed": "http://bbinto.wordpress.com/feed",
   "twitter": "bbinto"
+},
+{
+  "blog": "https://www.section.io/blog",
+  "name": "section.io",
+  "feed": "https://www.section.io/feed",
+  "twitter": "section_io"
 }
 ];
