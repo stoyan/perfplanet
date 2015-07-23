@@ -280,5 +280,11 @@ var folks = [
   "name": "Barbara Bermes",
   "feed": "http://bbinto.wordpress.com/feed",
   "twitter": "bbinto"
+},
+{
+  "blog": "http://performancebeacon.com",
+  "name": "The Performance Beacon",
+  "feed": "http://www.soasta.com/feed/",
+  "twitter": "SOASTAInc"
 }
 ];
