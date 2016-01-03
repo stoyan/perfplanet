@@ -175,6 +175,12 @@ var folks = [
   "twitter": "souders"
 },
 {
+  "blog": "https://speedcurve.com/blog/",
+  "name": "Speed Matters",
+  "feed": "https://speedcurve.com/blog/rss/",
+  "twitter": "SpeedCurve"
+},
+{
   "blog": "http://phpied.com/",
   "name": "Stoyan Stefanov",
   "feed": "http://www.phpied.com/category/performance/feed/",
