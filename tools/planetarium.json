@@ -29,9 +29,9 @@ var folks = [
   "twitter": "daveartz"
 },
 {
-  "blog": "http://yoric.rajtel.name/",
+  "blog": "http://yoric.rajtel.name/category/informatique-computer-science/performance-informatique-computer-science/in-english-en-anglais",
   "name": "David Rajchenbach-Teller",
-  "feed": "https://yoric.rajtel.name/category/informatique-computer-science/performance-informatique-computer-science/in-english-en-anglais/",
+  "feed": "http://yoric.rajtel.name/category/informatique-computer-science/performance-informatique-computer-science/in-english-en-anglais/feed/",
   "twitter": "ImYoric"
 },
 {
