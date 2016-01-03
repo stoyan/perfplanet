@@ -1,5 +1,11 @@
 var folks = [
 {
+  "blog": "https://blog.ruxit.com",
+  "name": "The Ruxit blog",
+  "feed": "https://blog.ruxit.com/feed/",
+  "twitter": "ruxit"
+},
+{
   "blog": "http://www.aaronpeters.nl/blog/",
   "name": "Aaron Peters",
   "feed": "http://feeds.feedburner.com/aaronpeters",
