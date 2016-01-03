@@ -35,6 +35,12 @@ var folks = [
   "twitter": "daveartz"
 },
 {
+  "blog": "http://yoric.rajtel.name/category/informatique-computer-science/performance-informatique-computer-science/in-english-en-anglais",
+  "name": "David Rajchenbach-Teller",
+  "feed": "http://yoric.rajtel.name/category/informatique-computer-science/performance-informatique-computer-science/in-english-en-anglais/feed/",
+  "twitter": "ImYoric"
+},
+{
   "blog": "http://graphicsoptimization.com/blog/",
   "name": "Derek Tonn",
   "feed": "http://graphicsoptimization.com/blog/?feed=rss"
