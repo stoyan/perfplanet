@@ -181,6 +181,12 @@ var folks = [
   "twitter": "souders"
 },
 {
+  "blog": "http://stratusly.com",
+  "name": "Stratusly",
+  "feed": "http://stratusly.com/feed/",
+  "twitter": "stratusly"
+},
+{
   "blog": "https://speedcurve.com/blog/",
   "name": "Speed Matters",
   "feed": "https://speedcurve.com/blog/rss/",
