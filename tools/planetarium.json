@@ -298,5 +298,11 @@ var folks = [
   "name": "The Performance Beacon",
   "feed": "http://www.soasta.com/feed/",
   "twitter": "SOASTAInc"
+},
+{
+  "blog": "http://rigor.com/blog",
+  "name": "Rigor",
+  "feed": "http://rigor.com/feed",
+  "twitter": "TeamRigor"
 }
 ];
