@@ -184,6 +184,12 @@ var folks = [
   "twitter": "bbinto"
 },
 {
+  "blog": "http://blog.yoav.ws",
+  "name": "Yoav Weiss",
+  "feed": "https://blog.yoav.ws/index.xml",
+  "twitter": "yoavweiss"
+},
+{
   "blog": "http://performancebeacon.com",
   "name": "The Performance Beacon",
   "feed": "http://www.soasta.com/feed/",
