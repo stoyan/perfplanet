@@ -23,33 +23,10 @@ var folks = [
   "feed": "http://www.websiteoptimization.com/atom.xml"
 },
 {
-  "blog": "http://www.brianp.net/category/webperf/",
-  "name": "Brian Pane",
-  "feed": "http://www.brianp.net/category/webperf/feed/",
-  "twitter": "brianpane"
-},
-{
-  "blog": "http://www.artzstudio.com/",
-  "name": "Dave Artz",
-  "feed": "http://www.artzstudio.com/feed/",
-  "twitter": "daveartz"
-},
-{
-  "blog": "http://graphicsoptimization.com/blog/",
-  "name": "Derek Tonn",
-  "feed": "http://graphicsoptimization.com/blog/?feed=rss"
-},
-{
   "blog": "http://blog.dynatrace.com/tag/ajax/",
   "name": "dynaTrace",
   "feed": "http://blog.dynatrace.com/feed/",
   "twitter": "dynatrace"
-},
-{
-  "blog": "http://www.ejeliot.com/",
-  "name": "Ed Eliot",
-  "feed": "http://feeds.feedburner.com/ejeliot/blog-rss",
-  "twitter": "ejeliot"
 },
 {
   "blog": "http://ericgoldsmith.com/",
@@ -58,27 +35,10 @@ var folks = [
   "twitter": "goldsmitheric"
 },
 {
-  "blog": "http://googlecode.blogspot.com/search/label/faster%20web",
-  "name": "Google code",
-  "feed": "http://googlecode.blogspot.com/feeds/posts/default/-/faster%20web?alt=rss",
-  "twitter": "googledevs"
-},
-{
-  "blog": "http://hedgerwow.blogspot.com/",
-  "name": "Hedger Wang",
-  "feed": "http://hedgerwow.blogspot.com/feeds/posts/default?alt=rss",
-  "twitter": "hedgerwang"
-},
-{
   "blog": "http://blog.httpwatch.com/",
   "name": "HTTPWatch",
   "feed": "http://blog.httpwatch.com/feed/",
   "twitter": "httpwatch"
-},
-{
-  "blog": "http://javascriptrules.com",
-  "name": "JavaScript Rules",
-  "feed": "http://javascriptrules.com/category/performance.xml"
 },
 {
   "blog": "http://ejohn.org/",
@@ -87,39 +47,10 @@ var folks = [
   "twitter": "jeresig"
 },
 {
-  "blog": "http://modpagespeed.jmarantz.com/",
-  "name": "Joshua Marantz",
-  "feed": "http://modpagespeed.jmarantz.com/feeds/3579424923266508462/comments/default",
-  "twitter": "jmarantz"
-},
-{
-  "blog": "http://blogs.msdn.com/jscript/",
-  "name": "JScript blog",
-  "feed": "http://blogs.msdn.com/jscript/rss_tag_JavaScript+Performance+IE.xml"
-},
-{
-  "blog": "http://www.kylescholz.com/blog/",
-  "name": "Kyle Scholz",
-  "feed": "http://feeds.feedburner.com/kylescholz",
-  "twitter": "kylescholz"
-},
-{
-  "blog": "http://blog.getify.com/tag/performance/",
-  "name": "Kyle Simpson",
-  "feed": "http://blog.getify.com/tag/performance/feed/",
-  "twitter": "getify"
-},
-{
   "blog": "http://webforscher.wordpress.com",
   "name": "Markus Leptien",
   "feed": "http://webforscher.wordpress.com/category/web-performance/feed/",
   "twitter": "leptienm"
-},
-{
-  "blog": "http://www.nczonline.net/",
-  "name": "Nicholas Zakas",
-  "feed": "http://www.nczonline.net/blog/?tag=performance&feed=rss2",
-  "twitter": "slicknet"
 },
 {
   "blog": "http://www.stubbornella.org/",
@@ -193,12 +124,6 @@ var folks = [
   "twitter": "stoyanstefanov"
 },
 {
-  "blog": "http://muffinresearch.co.uk/",
-  "name": "Stuart Colville",
-  "feed": "http://muffinresearch.co.uk/archives/category/performance/feed/",
-  "twitter": "muffinresearch"
-},
-{
   "blog": "http://timkadlec.com/category/performance/",
   "name": "Tim Kadlec",
   "feed": "http://timkadlec.com/category/performance/feed/",
@@ -209,30 +134,6 @@ var folks = [
   "name": "Tony Gentilcore",
   "feed": "http://gent.ilcore.com/feeds/posts/default",
   "twitter": "tonygentilcore"
-},
-{
-  "blog": "http://torbit.com/blog/",
-  "name": "Torbit",
-  "feed": "http://feeds.feedburner.com/torbit",
-  "twitter": "torbit"
-},
-{
-  "blog": "http://yuiblog.com/",
-  "name": "YUI blog",
-  "feed": "http://feeds.yuiblog.com/yuiblog/performance",
-  "twitter": "yuilibrary"
-},
-{
-  "blog": "http://zoompf.com/blog/",
-  "name": "Zoompf",
-  "feed": "http://zoompf.com/blog/feed/",
-  "twitter": "zoompf"
-},
-{
-  "blog": "http://www.sajalkayan.com/",
-  "name": "Sajal Kayan",
-  "feed": "http://www.sajalkayan.com/tag/site-performance/feed",
-  "twitter": "sajal"
 },
 {
   "blog": "http://blog.yottaa.com/",
@@ -259,21 +160,10 @@ var folks = [
   "twitter": "jphpsf"
 },
 {
-  "blog": "http://www.lognormal.com/blog/",
-  "name": "LogNormal",
-  "feed": "http://feeds.feedburner.com/lognormal",
-  "twitter": "log_normal"
-},
-{
   "blog": "http://blog.intechnica.co.uk/",
   "name": "Intechnica Blog",
   "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
   "twitter": "intechnica"
-},
-{
-  "blog": "https://insouciant.org/",
-  "name": "Insouciant | William Chan",
-  "feed": "https://insouciant.org/feed/"
 },
 {
   "blog": "http://tobias.is/geeky/webperf/",
