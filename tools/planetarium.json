@@ -189,4 +189,10 @@ var folks = [
   "feed": "http://www.soasta.com/feed/",
   "twitter": "SOASTAInc"
 }
+{
+  "blog": "http://www.cdn-advisor.com",
+  "name": "CDN-Advisor.com Blog",
+  "feed": "http://www.cdn-advisor.com/feed/",
+  "twitter": "cdnadvisor"
+},
 ];
