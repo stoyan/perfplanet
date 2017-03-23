@@ -1,5 +1,11 @@
 var folks = [
 {
+  "blog": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/?style=Website+Performance",
+  "name": "NCC Group Web Performance",
+  "feed": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/website-performance-rss-feed/",
+  "twitter": "NCCGroupWebperf"
+},
+{
   "blog": "http://www.aaronpeters.nl/blog/",
   "name": "Aaron Peters",
   "feed": "http://feeds.feedburner.com/aaronpeters",
