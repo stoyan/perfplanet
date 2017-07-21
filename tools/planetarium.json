@@ -18,6 +18,12 @@ var folks = [
   "twitter": "aaronpeters"
 },
 {
+  "blog": "http://www.loadtestingtool.com/blog/",
+  "name": "On Load Testing",
+  "feed": "http://feeds.feedburner.com/WebLoadTesting",
+  "twitter": "onloadtesting"
+},
+{
   "blog": "http://webreflection.blogspot.com/",
   "name": "Andrea Giammarchi",
   "feed": "http://feeds.feedburner.com/WebReflection",
