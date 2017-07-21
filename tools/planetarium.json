@@ -112,6 +112,12 @@ var folks = [
   "twitter": "sitepen"
 },
 {
+  "blog": "http://stratusly.com/news",
+  "name": "Stratusly Blog",
+  "feed": "http://stratusly.com/feed/",
+  "twitter": "stratusly"
+},
+{
   "blog": "http://www.stevesouders.com/blog/",
   "name": "Steve Souders",
   "feed": "http://www.stevesouders.com/blog/feed/",
