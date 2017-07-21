@@ -1,6 +1,6 @@
 var folks = [
 {
-  "blog": "https://www.bluetriangletech.com/performance-insider/?utm_source=perfplanet&utm_medium=referral",
+  "blog": "https://www.bluetriangletech.com/performance-insider/",
   "name": "The Performance Insider by Blue Triangle",
   "feed": "https://www.bluetriangletech.com/performance-insider/feed/",
   "twitter": "bluetriangletec"
@@ -212,5 +212,16 @@ var folks = [
   "name": "Rigor",
   "feed": "http://rigor.com/feed",
   "twitter": "TeamRigor"
+},
+{
+  "blog": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/?style=Website+Performance",
+  "name": "NCC Group Web Performance",
+  "feed": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/website-performance-rss-feed/",
+  "twitter": "NCCGroupWebperf"
+},
+{
+  "blog": "http://lampe2e.blogspot.co.uk/",
+  "name": "Colin McKinnon",
+  "feed": "http://lampe2e.blogspot.com/feeds/posts/default"
 }
 ];
