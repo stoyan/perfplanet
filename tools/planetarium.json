@@ -1,5 +1,11 @@
 var folks = [
 {
+  "blog": "http://www.lognormal.com/blog/",
+  "name": "a normal log",
+  "feed": "http://www.lognormal.com/blog/atom.xml",
+  "twitter": "log_normal"
+},
+{
   "blog": "https://www.bluetriangletech.com/performance-insider/",
   "name": "The Performance Insider by Blue Triangle",
   "feed": "https://www.bluetriangletech.com/performance-insider/feed/",
