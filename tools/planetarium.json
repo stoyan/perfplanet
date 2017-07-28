@@ -1,7 +1,7 @@
 var folks = [
 {
   "blog": "http://www.lognormal.com/blog/",
-  "name": "a normal log",
+  "name": "Log Normal",
   "feed": "http://www.lognormal.com/blog/atom.xml",
   "twitter": "log_normal"
 },
