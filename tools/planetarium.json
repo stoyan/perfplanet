@@ -229,5 +229,11 @@ var folks = [
   "blog": "http://lampe2e.blogspot.co.uk/",
   "name": "Colin McKinnon",
   "feed": "http://lampe2e.blogspot.com/feeds/posts/default"
+},
+{
+  "blog": "https://blog.dareboost.com/en/",
+  "name": "DareBoost Blog | Web Performance – Best Practices and Studies",
+  "feed": "https://blog.dareboost.com/en/category/web-best-practices/feed/",
+  "twitter": "dareboost"
 }
 ];
