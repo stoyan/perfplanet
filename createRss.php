@@ -39,7 +39,7 @@ EOT;
         $rss .= "<guid isPermaLink=\"true\">" . xmlentities($item->link) . "</guid>\n";
         $rss .= "<description>" . xmlentities($item->description) . "</description>\n";
         $rss .= "<pubDate>" . xmlentities($item->pubDate) . "</pubDate>\n";
-        $rss .= "<content:encoded><![CDATA[" . $item->encoded . "]]></content:encoded>\n";
+        $rss .= "<content:encoded><![CDATA[" . @$item->encoded . "]]></content:encoded>\n";
         $rss .= "</item>\n";
     }
 
