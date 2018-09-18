@@ -235,5 +235,15 @@ var folks = [
   "name": "DareBoost Blog | Web Performance – Best Practices and Studies",
   "feed": "https://blog.dareboost.com/en/category/web-best-practices/feed/",
   "twitter": "dareboost"
+},
+{
+  "blog": "https://medium.com/@treo",
+  "name": "Treo.sh",
+  "twitter": "__treo"
+},
+{
+  "blog": "https://medium.com/@denar90",
+  "name": "Artem Denysov",
+  "twitter": "denar90_"
 }
 ];
