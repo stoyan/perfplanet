@@ -1,59 +1,45 @@
-if (!arguments[0]) {
-    print('usage:\n $ jsc builder.js -- html "`cat perfplanet.html`" "`cat perfplanet.css`" "`cat perfplanet.js`" > index.html');
-    print('or');
-    print('usage:\n $ jsc builder.js -- curl > up.sh');
-    quit();
+if (!process.argv[2]) {
+    console.log('usage:\n $ node builder.js "`cat perfplanet.html`" "`cat perfplanet.css`" "`cat perfplanet.js`" > index.html');
+    process.exit();
 }
-
+let folks = [];
 try {
-  load('planetarium.json');
+  folks = require('./planetarium.json');
 } catch (e) {
-  print('error in the JSON data, them damn commas!');
-  quit();
+  console.log(e);
+  console.log('error in the JSON data, them damn commas!');
+  process.exit();
 }
 
+var cssmin = require('./cssmin');
+var jsmin = require('./jsmin');
 
-if (arguments[0] === 'html') {
+var template = process.argv[2],
+    css = process.argv[3],
+    js = process.argv[4],
+    result,
+    list = '\n';
 
-  var template = arguments[1],
-      css = arguments[2],
-      js = arguments[3],
-      result,
-      list = '\n';
 
-  load('cssmin.js');
-  load('jsmin.js');
-
-  folks.sort(function(a, b) {
-    return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
-  });
-  for(var i = 0, fella = folks[0]; i < folks.length; fella = folks[++i]) {
-    list += '<li><a href="' + fella.blog + '">'+ fella.name +'</a></li>\n'; 
-  }
-
-  result = template.
-    replace(
-      /<link rel="stylesheet" href="perfplanet.css">/, 
-      "<style>" + YAHOO.compressor.cssmin(css) + "</style>"
-    ).
-    replace(
-      /<script src="perfplanet.js"><\/script>/,
-      "<script>" + jsmin(js) + "</script>"
-    ).
-    replace(
-      /{generateme}/,
-      list
-    );
-
-  print(result);
-} else {
-
-  var list = [];
-  for(var i = 0; i < folks.length; i++) {
-    list.push('"' + folks[i].feed + '"'); 
-  }
-  var yql = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20in%20(' + encodeURIComponent(list.join(',')) + ')' +
-            '%20%7C%20sort(field%3D%22pubDate%22%2C%20descending%3D%22true%22)%20%7C%20unique(field%3D%22link%22)%20%7C%20truncate(count%3D20)' +
-            '&format=json';
-  print(yql);
+folks.sort(function(a, b) {
+  return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+});
+for(var i = 0, fella = folks[0]; i < folks.length; fella = folks[++i]) {
+  list += '<li><a href="' + fella.blog + '">'+ fella.name +'</a></li>\n'; 
 }
+
+result = template.
+  replace(
+    /<link rel="stylesheet" href="perfplanet.css">/, 
+    "<style>" + cssmin(css) + "</style>"
+  ).
+  replace(
+    /<script src="perfplanet.js"><\/script>/,
+    "<script>" + jsmin(js) + "</script>"
+  ).
+  replace(
+    /{generateme}/,
+    list
+  );
+
+console.log(result);

@@ -1,4 +1,8 @@
 /*! 
+jsmin.js - 2020-08-16
+Author: Stoyan Stefanov (https://www.phpied.com)
+Added Export support
+
 jsmin.js - 2010-01-15
 Author: NanaLich (http://www.cnblogs.com/NanaLich)
 Another patched version for jsmin.js patched by Billy Hoffman, 
@@ -366,4 +370,8 @@ function jsmin(comment, input, level) {
 
   return comment + ret;
 
+}
+
+if (typeof module !== 'undefined' && 'exports' in module) {
+  module.exports = jsmin;
 }

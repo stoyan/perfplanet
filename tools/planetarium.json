@@ -1,239 +1,120 @@
-var folks = [
-{
-  "blog": "http://www.lognormal.com/blog/",
-  "name": "Log Normal",
-  "feed": "http://www.lognormal.com/blog/atom.xml",
-  "twitter": "log_normal"
-},
-{
-  "blog": "https://www.bluetriangletech.com/performance-insider/",
-  "name": "The Performance Insider by Blue Triangle",
-  "feed": "https://www.bluetriangletech.com/performance-insider/feed/",
-  "twitter": "bluetriangletec"
-},
-{
-  "blog": "https://blog.ruxit.com",
-  "name": "The Ruxit blog",
-  "feed": "https://blog.ruxit.com/feed/",
-  "twitter": "ruxit"
-},
-{
-  "blog": "http://www.aaronpeters.nl/blog/",
-  "name": "Aaron Peters",
-  "feed": "http://feeds.feedburner.com/aaronpeters",
-  "twitter": "aaronpeters"
-},
-{
-  "blog": "http://webreflection.blogspot.com/",
-  "name": "Andrea Giammarchi",
-  "feed": "http://feeds.feedburner.com/WebReflection",
-  "twitter": "WebReflection"
-},
-{
-  "blog": "http://www.websiteoptimization.com/",
-  "name": "Andrew King",
-  "feed": "http://www.websiteoptimization.com/atom.xml"
-},
-{
-  "blog": "http://blog.dynatrace.com/tag/ajax/",
-  "name": "dynaTrace",
-  "feed": "http://blog.dynatrace.com/feed/",
-  "twitter": "dynatrace"
-},
-{
-  "blog": "http://ericgoldsmith.com/",
-  "name": "Eric Goldsmith",
-  "feed": "http://ericgoldsmith.com/feed/",
-  "twitter": "goldsmitheric"
-},
-{
-  "blog": "http://blog.httpwatch.com/",
-  "name": "HTTPWatch",
-  "feed": "http://blog.httpwatch.com/feed/",
-  "twitter": "httpwatch"
-},
-{
-  "blog": "http://ejohn.org/",
-  "name": "John Resig",
-  "feed": "http://feeds.feedburner.com/JohnResig",
-  "twitter": "jeresig"
-},
-{
-  "blog": "http://webforscher.wordpress.com",
-  "name": "Markus Leptien",
-  "feed": "http://webforscher.wordpress.com/category/web-performance/feed/",
-  "twitter": "leptienm"
-},
-{
-  "blog": "http://www.stubbornella.org/",
-  "name": "Nicole Sullivan",
-  "feed": "http://www.stubbornella.org/content/category/general/geek/performance-geek-general/feed/",
-  "twitter": "stubbornella"
-},
-{
-  "blog": "http://blog.patrickmeenan.com/",
-  "name": "Patrick Meenan",
-  "feed": "http://blog.patrickmeenan.com/feeds/posts/default?alt=rss",
-  "twitter": "patmeenan"
-},
-{
-  "blog": "http://www.paulirish.com/",
-  "name": "Paul Irish",
-  "feed": "http://feeds.feedburner.com/paul-irish",
-  "twitter": "paul_irish"
-},
-{
-  "blog": "http://calendar.perfplanet.com",
-  "name": "PerfPlanet calendar",
-  "feed": "http://calendar.perfplanet.com/feed/"
-},
-{
-  "blog": "http://tech.bluesmoon.info/",
-  "name": "Philip Telis",
-  "feed": "http://tech.bluesmoon.info/feeds/posts/default/-/performance?alt=rss",
-  "twitter": "bluesmoon"
-},
-{
-  "blog": "http://jrvis.com/blog/",
-  "name": "Rick Viscomi",
-  "feed": "http://jrvis.com/blog/category/web-performance/feed/",
-  "twitter": "rick_viscomi"
-},
-{
-  "blog": "http://www.ravelrumba.com/",
-  "name": "Rob Flaherty",
-  "feed": "http://www.ravelrumba.com/blog/category/web-performance/feed/",
-  "twitter": "robflaherty"
-},
-{
-  "blog": "http://www.sergeychernyshev.com/blog/",
-  "name": "Sergey Chernyshev",
-  "feed": "http://feeds.showslow.com/ShowSlowBlog",
-  "twitter": "sergeyche"
-},
-{
-  "blog": "http://www.sitepen.com/",
-  "name": "SitePen",
-  "feed": "http://www.sitepen.com/blog/category/performance/feed/",
-  "twitter": "sitepen"
-},
-{
-  "blog": "http://stratusly.com/news",
-  "name": "Stratusly Blog",
-  "feed": "http://stratusly.com/feed/",
-  "twitter": "stratusly"
-},
-{
-  "blog": "http://www.stevesouders.com/blog/",
-  "name": "Steve Souders",
-  "feed": "http://www.stevesouders.com/blog/feed/",
-  "twitter": "souders"
-},
-{
-  "blog": "https://speedcurve.com/blog/",
-  "name": "Speed Matters",
-  "feed": "https://speedcurve.com/blog/rss/",
-  "twitter": "SpeedCurve"
-},
-{
-  "blog": "http://phpied.com/",
-  "name": "Stoyan Stefanov",
-  "feed": "http://www.phpied.com/category/performance/feed/",
-  "twitter": "stoyanstefanov"
-},
-{
-  "blog": "http://timkadlec.com/category/performance/",
-  "name": "Tim Kadlec",
-  "feed": "http://timkadlec.com/category/performance/feed/",
-  "twitter": "timkadlec"
-},
-{
-  "blog": "http://gent.ilcore.com/",
-  "name": "Tony Gentilcore",
-  "feed": "http://gent.ilcore.com/feeds/posts/default",
-  "twitter": "tonygentilcore"
-},
-{
-  "blog": "http://blog.yottaa.com/",
-  "name": "Yottaa Blog",
-  "feed": "http://feeds.feedburner.com/webperformance-yottaa",
-  "twitter": "yottaa"
-},
-{
-  "blog": "http://www.cdnplanet.com/blog/",
-  "name": "CDN Planet Blog",
-  "feed": "http://www.cdnplanet.com/blog/tag/performance/feed/",
-  "twitter": "cdnplanet"
-},
-{
-  "blog": "http://blog.catchpoint.com/",
-  "name": "Catchpoint Blog",
-  "feed": "http://blog.catchpoint.com/feed/",
-  "twitter": "catchpoint"
-},
-{
-  "blog": "http://blog.jphpsf.com/",
-  "name": "JP's Blog",
-  "feed": "http://feeds.feedburner.com/jphpsf-perf-blog",
-  "twitter": "jphpsf"
-},
-{
-  "blog": "http://blog.intechnica.co.uk/",
-  "name": "Intechnica Blog",
-  "feed": "http://blog.intechnica.co.uk/category/performance-2/feed/",
-  "twitter": "intechnica"
-},
-{
-  "blog": "http://tobias.is/geeky/webperf/",
-  "name": "Tobias Baldauf",
-  "feed": "http://tobias.is/webperf/feed/",
-  "twitter": "tbaldauf"
-},
-{
-  "blog": "http://royal.pingdom.com/category/performance-2",
-  "name": "Pingdom",
-  "feed": "http://feeds.feedburner.com/pingdomwebperformance",
-  "twitter": "pingdom"
-},
-{
-  "blog": "http://bbinto.wordpress.com",
-  "name": "Barbara Bermes",
-  "feed": "http://bbinto.wordpress.com/feed",
-  "twitter": "bbinto"
-},
-{
-  "blog": "http://blog.yoav.ws",
-  "name": "Yoav Weiss",
-  "feed": "https://blog.yoav.ws/index.xml",
-  "twitter": "yoavweiss"
-},
-{
-  "blog": "http://performancebeacon.com",
-  "name": "The Performance Beacon",
-  "feed": "http://www.soasta.com/feed/",
-  "twitter": "SOASTAInc"
-},
-{
-  "blog": "http://rigor.com/blog",
-  "name": "Rigor",
-  "feed": "http://rigor.com/feed",
-  "twitter": "TeamRigor"
-},
-{
-  "blog": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/?style=Website+Performance",
-  "name": "NCC Group Web Performance",
-  "feed": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/website-performance-rss-feed/",
-  "twitter": "NCCGroupWebperf"
-},
-{
-  "blog": "http://lampe2e.blogspot.co.uk/",
-  "name": "Colin McKinnon",
-  "feed": "http://lampe2e.blogspot.com/feeds/posts/default"
-},
-{
-  "blog": "https://blog.dareboost.com/en/",
-  "name": "DareBoost Blog | Web Performance – Best Practices and Studies",
-  "feed": "https://blog.dareboost.com/en/category/web-best-practices/feed/",
-  "twitter": "dareboost"
-}
-];
+[
+  {
+    "blog": "https://www.aaronpeters.nl/blog/",
+    "name": "Aaron Peters",
+    "feed": "https://www.aaronpeters.nl/rss/feed.xml",
+    "twitter": "aaronpeters"
+  },
+  {
+    "blog": "https://blog.httpwatch.com/",
+    "name": "HTTPWatch",
+    "feed": "https://blog.httpwatch.com/feed/",
+    "twitter": "httpwatch"
+  },
+  {
+    "blog": "https://www.paulirish.com/",
+    "name": "Paul Irish",
+    "feed": "https://feeds.feedburner.com/paul-irish",
+    "twitter": "paul_irish"
+  },
+  {
+    "blog": "https://calendar.perfplanet.com",
+    "name": "PerfPlanet calendar",
+    "feed": "https://calendar.perfplanet.com/feed/"
+  },
+  {
+    "blog": "http://tech.bluesmoon.info/",
+    "name": "Philip Telis",
+    "feed": "http://tech.bluesmoon.info/feeds/posts/default/-/performance?alt=rss",
+    "twitter": "bluesmoon"
+  },
+  {
+    "blog": "https://www.sergeychernyshev.com/blog/",
+    "name": "Sergey Chernyshev",
+    "feed": "http://feeds.sergeychernyshev.com/SergeyChernyshevsBlog",
+    "twitter": "sergeyche"
+  },
+  {
+    "blog": "https://www.stevesouders.com/blog/",
+    "name": "Steve Souders",
+    "feed": "https://www.stevesouders.com/blog/feed/",
+    "twitter": "souders"
+  },
+  {
+    "blog": "https://speedcurve.com/blog/",
+    "name": "Speed Matters",
+    "feed": "https://speedcurve.com/blog/rss/",
+    "twitter": "SpeedCurve"
+  },
+  {
+    "blog": "https://phpied.com/",
+    "name": "Stoyan Stefanov",
+    "feed": "https://www.phpied.com/category/performance/feed/",
+    "twitter": "stoyanstefanov"
+  },
+  {
+    "blog": "https://timkadlec.com/tags/performance/",
+    "name": "Tim Kadlec",
+    "feed": "https://timkadlec.com/tags/performance/atom.xml",
+    "twitter": "timkadlec"
+  },
+  {
+    "blog": "https://www.cdnplanet.com/blog/",
+    "name": "CDN Planet Blog",
+    "feed": "https://www.cdnplanet.com/blog/feed.xml",
+    "twitter": "cdnplanet"
+  },
+  {
+    "blog": "https://blog.catchpoint.com/",
+    "name": "Catchpoint Blog",
+    "feed": "https://blog.catchpoint.com/category/performance-operations/feed",
+    "twitter": "catchpoint"
+  },
+  {
+    "blog": "https://tobias.is/blogging/",
+    "name": "Tobias Baldauf",
+    "feed": "https://tobias.is/feed/index.xml",
+    "twitter": "tbaldauf"
+  },
+  {
+    "blog": "https://www.pingdom.com/blog/",
+    "name": "Pingdom",
+    "feed": "https://www.pingdom.com/blog/feed/",
+    "twitter": "pingdom"
+  },
+  {
+    "blog": "https://bbinto.wordpress.com",
+    "name": "Barbara Bermes",
+    "feed": "https://bbinto.wordpress.com/feed",
+    "twitter": "bbinto"
+  },
+  {
+    "blog": "https://blog.yoav.ws",
+    "name": "Yoav Weiss",
+    "feed": "https://blog.yoav.ws/index.xml",
+    "twitter": "yoavweiss"
+  },
+  {
+    "blog": "https://rigor.com/blog",
+    "name": "Rigor",
+    "feed": "https://rigor.com/feed",
+    "twitter": "TeamRigor"
+  },
+  {
+    "blog": "https://lampe2e.blogspot.co.uk/",
+    "name": "Colin McKinnon",
+    "feed": "https://lampe2e.blogspot.com/feeds/posts/default"
+  },
+  {
+    "blog": "https://blog.dareboost.com/en/",
+    "name": "DareBoost Blog",
+    "feed": "https://blog.dareboost.com/en/category/web-best-practices/feed/",
+    "twitter": "dareboost"
+  },
+  {
+    "blog": "https://medium.com/web-perf-practitioner",
+    "name": "WebPerf Practitioner",
+    "feed": "https://medium.com/feed/web-perf-practitioner",
+    "twitter": "fabkru"
+  }
+]

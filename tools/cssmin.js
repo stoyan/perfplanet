@@ -1,6 +1,6 @@
 /**
  * cssmin.js
- * Author: Stoyan Stefanov - http://phpied.com/
+ * Author: Stoyan Stefanov - https://phpied.com/
  * This is a JavaScript port of the CSS minification tool
  * distributed with YUICompressor, itself a port 
  * of the cssmin utility by Isaac Schlueter - http://foohack.com/ 
@@ -179,3 +179,7 @@ YAHOO.compressor.cssmin = function (css, linebreakpos){
     return css;
 
 };
+
+if (typeof module !== 'undefined' && 'exports' in module) {
+  module.exports = YAHOO.compressor.cssmin;
+}
