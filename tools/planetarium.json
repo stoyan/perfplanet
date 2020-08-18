@@ -121,5 +121,15 @@
     "blog": "https://csswizardry.com/",
     "name": "Harry Roberts",
     "feed": "https://feeds.feedburner.com/csswizardry"
+  },
+  {
+    "blog": "https://phabricator.wikimedia.org/phame/blog/view/7/",
+    "name": "Speed of thought",
+    "feed": "https://phabricator.wikimedia.org/phame/blog/feed/7/"
+  },
+  {
+    "blog": "https://calibreapp.com/blog/category/web-platform",
+    "name": "Calibre",
+    "feed": "https://calibreapp.com/blog/rss.xml"
   }
 ]

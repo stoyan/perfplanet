@@ -35,6 +35,11 @@ $data = array();
 $rss = array();
 foreach ($feed->get_items(0, 50) as $item) {
   
+  $link = $item->get_permalink();
+  if (stristr($link, 'calibreapp') && stristr($link, 'release-notes')) {
+    continue;
+  }
+  
   $authors = array();
   if ($item->get_authors()) {
     foreach($item->get_authors() as $author) {
@@ -50,7 +55,7 @@ foreach ($feed->get_items(0, 50) as $item) {
     
   $data[] = array(
     'title' => $item->get_title(),
-    'link' => $item->get_permalink(),
+    'link' => $link,
     'author' => $authors,
     'category' => $tags,
     //'content' => $item->get_content(),
@@ -61,8 +66,8 @@ foreach ($feed->get_items(0, 50) as $item) {
   if (count($rss) < 10) {
     $rss[] = "<item>\n".
       "<title>" . xmlentities($item->get_title()) . "</title>\n".
-      "<link>" . xmlentities($item->get_permalink()) . "</link>\n".
-      "<guid isPermaLink=\"true\">" . xmlentities($item->get_permalink()) . "</guid>\n".
+      "<link>" . xmlentities($link) . "</link>\n".
+      "<guid isPermaLink=\"true\">" . xmlentities($link) . "</guid>\n".
       "<description>" . xmlentities($item->get_description()) . "</description>\n".
       "<pubDate>" . xmlentities($item->get_date()) . "</pubDate>\n".
       "<content:encoded><![CDATA[" . $item->get_content() . "]]></content:encoded>\n".
