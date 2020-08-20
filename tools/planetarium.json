@@ -131,5 +131,10 @@
     "blog": "https://calibreapp.com/blog/category/web-platform",
     "name": "Calibre",
     "feed": "https://calibreapp.com/blog/rss.xml"
+  },
+  {
+    "blog": "https://www.zachleat.com/web/",
+    "name": "Zach Leatherman",
+    "feed": "https://www.zachleat.com/web/feed/"
   }
 ]
