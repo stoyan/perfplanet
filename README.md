@@ -1,4 +1,4 @@
-the thing that runs perfplanet.com
+the thing that runs https://feed.perfplanet.com
 
 To contribute:
  - edit tools/planetarium.json
