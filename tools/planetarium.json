@@ -136,5 +136,10 @@
     "blog": "https://www.zachleat.com/web/",
     "name": "Zach Leatherman",
     "feed": "https://www.zachleat.com/web/feed/"
+  },
+  {
+    "blog": "https://nicj.net/",
+    "name": "Nic Jansma",
+    "feed": "http://feeds.feedburner.com/NicJ"
   }
 ]
