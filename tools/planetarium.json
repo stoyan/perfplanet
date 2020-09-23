@@ -141,5 +141,10 @@
     "blog": "https://nicj.net/",
     "name": "Nic Jansma",
     "feed": "http://feeds.feedburner.com/NicJ"
+  },
+  {
+    "blog": "https://andydavies.me/",
+    "name": "Andy Davies",
+    "feed": "http://feeds.feedburner.com/andydavies"
   }
 ]
