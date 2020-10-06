@@ -1,148 +1,122 @@
-/* from oocss.org */
 body {
-  /*_text-align:center;*/
-} /* IE5.5 */
-.body,
-.tit {
-  overflow: hidden;
-  _overflow: visible;
-  _zoom: 1;
-}
-.tit,
-.page {
-  margin: 0 auto;
-  width: 960px; /*_text-align:left;*/
-} /* wraps other template elems to set width */ /* text-align IE5.5 */
-.main {
-  overflow: hidden;
-  _overflow: visible;
-  _zoom: 1;
-  padding-right: 10px;
-}
-.rightCol {
-  float: right;
-  width: 200px;
-  _margin-left: -3px;
-}
-/* nuff template*/
-
-body {
-  background: url(background.png) repeat-y;
-  font-family: 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
-  font-size: 14px;
-}
-
-.m {
-  background: #f0f0f0;
-  padding: 1px 8px 5px;
-  -moz-border-radius: 0 0 6px 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-}
-
-.mh {
-  background: #7d8ca5;
-  color: white;
-  font-weight: normal;
-  padding: 3px;
-  margin: 8px 0 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  -webkit-border-top-left-radius: 6px;
-  -webkit-border-top-right-radius: 6px;
-  border: 1px #7d8ca5;
-  text-align: center;
-}
-
-.tit {
-  border-bottom: 1px solid #7d8ca5;
-  height: 130px;
-}
-
-.tit h1,
-ul {
-  margin: 0;
-  padding-left: 20px;
-}
-
-.logo {
-  float: left;
-}
-
-.slogan {
-  float: left;
-  color: #808080;
-  font-size: 2.7em;
-  line-height: 0.8em;
-  margin: 20px 0 0 20px;
-}
-
-.e {
-  font-size: 2em;
-  position: relative;
-  top: 5px;
+  font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
 }
 
 a {
-  color: #05a;
+  color: #01146d;
 }
 
-h2 a,
-a:hover,
-.rss,
-.foot a {
+a:hover {
   text-decoration: none;
 }
 
-.blogpost {
+.header {
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto auto;
+  gap: 0 2em;
+}
+
+.logo {
+  grid-row: span 2;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.slogan {
+  color: darkgray;
+  font-size: 28px;
+  font-variation-settings: "opsz" 20, "GRAD" 400, "YAXS" 400;
+  font-weight: 225;
+}
+
+.header h1 {
+  font-size: 44px;
+  margin: 0;
+  font-variation-settings: "opsz" 20, "GRAD" 596.7999877929688, "YAXS" 400;
+  font-weight: 112.72000122070312;
+}
+
+@media only screen and (min-width: 1000px) {
+  .page {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .body {
+    width: 700px;
+  }
+
+  .sidebar {
+    width: 240px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-variation-settings: "opsz" 20, "GRAD" 466.239990234375, "YAXS" 400;
+  font-weight: 508;
+}
+
+.sb-card {
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 4px 20px;
+  margin: 14px 0;
+  font-size: 16px;
+}
+
+.sb-card p {
+  margin-top: 0;
+}
+
+.sb-card h3 {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.col3 {
+  column-count: 3;
+}
+
+.calendar-list {
+  margin-top: 0;
+  padding-left: 20px;
   padding-bottom: 20px;
-  line-height: 1.3em;
-  letter-spacing: -0.03em;
+}
+
+#planetarium {
+  padding-left: 20px;
+}
+
+.footer {
+  background: #01146d;
+  color: white;
+  padding: 54px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
 }
 
 .ornament {
   color: #ccc;
   font-size: 50px;
   text-align: center;
-  padding-top: 40px;
 }
 
 .ornament b {
   font-size: 70px;
   font-weight: normal;
-}
-
-.foot {
-  border-top: 1px solid #7d8ca5;
-}
-
-h2 {
-  font-size: 2em;
-  line-height: 1em;
-}
-
-h2 a:hover {
-  text-decoration: underline;
-}
-
-img {
-  border: 0;
-}
-
-.foot a:hover {
-  color: blue;
-}
-
-.rss {
-  background: #05a;
-  color: white;
-  padding: 2px;
-}
-
-a.rss:hover {
-  background: blue;
-  color: white;
-}
-
-.col3 {
-  column-count: 3;
 }

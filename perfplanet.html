@@ -1,73 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Planet Performance</title>
-  <meta name="author" content="Stoyan Stefanov">
-  <link rel="alternate" type="application/rss+xml" href="rss.xml" title="RSS feed for Planet Performance">
-  <link rel="stylesheet" href="perfplanet.css">
-</head>
-<body>
-  <div class="tit">
-    <div class="logo"><img src="logo.png" alt="Planet Performance logo"></div>
-    <div class="slogan">News and views from the<br>web performance blogosphere</div>
-  </div>
-
-  <div class="page">
-    <div class="body">
-      <div class="rightCol">
-        <h3 class="mh">Planetarium</h3>
-        <div class="m">
-          <ul id="planetarium">{generateme}</ul>
-        </div>
-        
-        <h3 class="mh">Your blog here</h3>
-        <div class="m">
-          <p>If you blog about performance, or know someone else who does and should be in this list, please <a href="https://github.com/stoyan/perfplanet/blob/master/tools/planetarium.json">use GitHub to edit the list of blogs</a>.</p>
-        </div>
-        
-        <h3 class="mh">The Book</h3>
-        <div class="m">
-          <p>Perfplanet's third edition (December 2011) is available as a book.</p>
-          <p align="center"><a href="https://www.amazon.com/dp/1449332919/?tag=w3clubs-20" title="Web Performance Daybook on Amazon"><img width="100" src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="perfplanet's book"></a></p>
-        </div>
-        
-        <h3 class="mh">Performance Calendar</h3>
-        <div class="m col3">
-          <ul>
-            <li><a href="http://calendar.perfplanet.com/2019/">2019</a></li>
-            <li><a href="http://calendar.perfplanet.com/2018/">2018</a></li>
-            <li><a href="http://calendar.perfplanet.com/2017/">2017</a></li>
-            <li><a href="http://calendar.perfplanet.com/2016/">2016</a></li>
-            <li><a href="http://calendar.perfplanet.com/2015/">2015</a></li>
-            <li><a href="http://calendar.perfplanet.com/2014/">2014</a></li>
-            <li><a href="http://calendar.perfplanet.com/2013/">2013</a></li>
-            <li><a href="http://calendar.perfplanet.com/2012/">2012</a></li>
-            <li><a href="http://calendar.perfplanet.com/2011/">2011</a></li>
-            <li><a href="http://calendar.perfplanet.com/2010/">2010</a></li>
-            <li><a href="http://calendar.perfplanet.com/2009/">2009</a></li>
-          </ul>
-        </div>
-        
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Planet Performance</title>
+    <meta name="author" content="Stoyan Stefanov" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="rss.xml"
+      title="RSS feed for Planet Performance"
+    />
+    <link rel="stylesheet" href="perfplanet.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="logo.png" alt="Planet Performance logo" />
       </div>
+      <h1>Planet Performance Feed</h1>
+      <div class="slogan">
+        News and views from the web performance blogosphere
+      </div>
+    </div>
 
-      <div class="main" id="blogs">
+    <div class="page">
+      <div class="body" id="blogs">
         Loading...
       </div>
+      <div class="sidebar">
+        <div class="sb-card">
+          <h3>Planetarium</h3>
+          <div>
+            <ul id="planetarium">
+              {generateme}
+            </ul>
+          </div>
+        </div>
 
+        <div class="sb-card">
+          <h3>Your blog here</h3>
+          <div>
+            <p>
+              If you blog about performance, or know someone else who does and
+              should be in this list, please
+              <a
+                href="https://github.com/stoyan/perfplanet/blob/master/tools/planetarium.json"
+                >use GitHub to edit the list of blogs</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="sb-card">
+          <h3>The Book</h3>
+          <div>
+            <p>
+              Perfplanet's third edition (December 2011) is available as a book.
+            </p>
+            <p align="center">
+              <a
+                href="https://www.amazon.com/dp/1449332919/?tag=w3clubs-20"
+                title="Web Performance Daybook on Amazon"
+                ><img
+                  width="100"
+                  src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif"
+                  alt="perfplanet's book"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <div class="sb-card">
+          <h3>Performance Calendar</h3>
+          <div class="col3">
+            <ul class="calendar-list">
+              <li><a href="http://calendar.perfplanet.com/2019/">2019</a></li>
+              <li><a href="http://calendar.perfplanet.com/2018/">2018</a></li>
+              <li><a href="http://calendar.perfplanet.com/2017/">2017</a></li>
+              <li><a href="http://calendar.perfplanet.com/2016/">2016</a></li>
+              <li><a href="http://calendar.perfplanet.com/2015/">2015</a></li>
+              <li><a href="http://calendar.perfplanet.com/2014/">2014</a></li>
+              <li><a href="http://calendar.perfplanet.com/2013/">2013</a></li>
+              <li><a href="http://calendar.perfplanet.com/2012/">2012</a></li>
+              <li><a href="http://calendar.perfplanet.com/2011/">2011</a></li>
+              <li><a href="http://calendar.perfplanet.com/2010/">2010</a></li>
+              <li><a href="http://calendar.perfplanet.com/2009/">2009</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-      
-    <div class="foot">
-      <p><a href="https://perfplanet.com">Planet Performance</a> is a project by <a href="https://www.phpied.com/" title="visit my blog">Stoyan Stefanov</a>
+
+    <div class="footer">
+      <p>
+        <a href="https://perfplanet.com">Planet Performance</a> is a project by
+        <a href="https://www.phpied.com/" title="visit my blog"
+          >Stoyan Stefanov</a
+        >
         <a class="e" href="mailto:ssttoo@gmail.com" title="email me">&#9993;</a>
-        <a class="e" href="https://twitter.com/stoyanstefanov" title="follow my tweets">&#9835;</a>
-        <a class="rss" href="rss.xml" title="RSS feed for Planet Performance">RSS</a>
+        <a
+          class="e"
+          href="https://twitter.com/stoyanstefanov"
+          title="follow my tweets"
+          >&#9835;</a
+        >
+        <a class="rss" href="rss.xml" title="RSS feed for Planet Performance"
+          >RSS</a
+        >
       </p>
     </div>
-  
-  </div>
 
-  <script src="perfplanet.js"></script>
-
-</body>
+    <script src="perfplanet.js"></script>
+  </body>
 </html>
