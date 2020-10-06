@@ -107,8 +107,13 @@ a:hover {
   padding-bottom: 14px;
 }
 
-.book {
+.book, .mic{
   text-align: center;
+}
+
+.mic img {
+  border-radius: 72px;
+  width: 106px;
 }
 
 #planetarium {
