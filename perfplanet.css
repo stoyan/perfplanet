@@ -16,7 +16,7 @@ a:hover {
 }
 
 .header {
-  padding: 1em 2em;
+  padding: 1em 0em;
   display: grid;
   grid-template-columns: min-content auto;
   grid-template-rows: auto auto;
@@ -34,14 +34,14 @@ a:hover {
 .slogan {
   color: darkgray;
   font-size: 28px;
-  font-variation-settings: "opsz" 20, "GRAD" 400, "YAXS" 400;
+  font-variation-settings: 'opsz' 20, 'GRAD' 400, 'YAXS' 400;
   font-weight: 225;
 }
 
 .header h1 {
   font-size: 44px;
   margin: 0;
-  font-variation-settings: "opsz" 20, "GRAD" 600, "YAXS" 400;
+  font-variation-settings: 'opsz' 20, 'GRAD' 600, 'YAXS' 400;
   font-weight: 120;
 }
 
@@ -53,6 +53,11 @@ a:hover {
     margin: 0 auto;
   }
 
+  .header {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
   .body {
     width: 700px;
   }
@@ -60,7 +65,7 @@ a:hover {
   .sidebar {
     width: 240px;
   }
-  
+
   .sb-card #planetarium {
     column-count: 1;
   }
@@ -68,7 +73,7 @@ a:hover {
 
 .title {
   font-size: 24px;
-  font-variation-settings: "opsz" 20, "GRAD" 466.239990234375, "YAXS" 400;
+  font-variation-settings: 'opsz' 20, 'GRAD' 450, 'YAXS' 400;
   font-weight: 508;
 }
 
