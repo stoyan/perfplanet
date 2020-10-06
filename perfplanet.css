@@ -92,7 +92,14 @@ a:hover {
 .calendar-list {
   margin-top: 0;
   padding-left: 20px;
-  padding-bottom: 20px;
+}
+
+.calendar {
+  padding-bottom: 14px;
+}
+
+.book {
+  text-align: center;
 }
 
 #planetarium {
