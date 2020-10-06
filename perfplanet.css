@@ -41,8 +41,8 @@ a:hover {
 .header h1 {
   font-size: 44px;
   margin: 0;
-  font-variation-settings: "opsz" 20, "GRAD" 596.7999877929688, "YAXS" 400;
-  font-weight: 112.72000122070312;
+  font-variation-settings: "opsz" 20, "GRAD" 600, "YAXS" 400;
+  font-weight: 120;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -59,6 +59,10 @@ a:hover {
 
   .sidebar {
     width: 240px;
+  }
+  
+  .sb-card #planetarium {
+    column-count: 1;
   }
 }
 
@@ -104,6 +108,7 @@ a:hover {
 
 #planetarium {
   padding-left: 20px;
+  column-count: 2;
 }
 
 .footer {
