@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
@@ -35,14 +35,14 @@ a:hover {
   color: darkgray;
   font-size: 28px;
   font-variation-settings: 'opsz' 20, 'GRAD' 400, 'YAXS' 400;
-  font-weight: 225;
+  font-weight: 300;
 }
 
 .header h1 {
   font-size: 44px;
   margin: 0;
   font-variation-settings: 'opsz' 20, 'GRAD' 600, 'YAXS' 400;
-  font-weight: 120;
+  font-weight: 200;
 }
 
 @media only screen and (min-width: 1000px) {
