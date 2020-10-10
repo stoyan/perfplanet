@@ -140,5 +140,10 @@
     "blog": "https://andydavies.me/",
     "name": "Andy Davies",
     "feed": "http://feeds.feedburner.com/andydavies"
+  },
+  {
+    "blog": "https://nooshu.github.io/blog/",
+    "name": "Matt Hobbs",
+    "feed": "https://nooshu.github.io/feed.xml"
   }
 ]
