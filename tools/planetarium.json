@@ -145,5 +145,11 @@
     "blog": "https://nooshu.github.io/blog/",
     "name": "Matt Hobbs",
     "feed": "https://nooshu.github.io/feed.xml"
+  },
+  {
+    "blog": "https://www.tunetheweb.com/blog/",
+    "name": "Barry Pollard",
+    "feed": "https://www.tunetheweb.com/blog/rss.xml",
+    "twitter": "tunetheweb"
   }
 ]
