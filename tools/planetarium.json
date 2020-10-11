@@ -145,5 +145,10 @@
     "blog": "https://nooshu.github.io/blog/",
     "name": "Matt Hobbs",
     "feed": "https://nooshu.github.io/feed.xml"
+  },
+  {
+    "blog": "https://paulcalvano.com/",
+    "name": "Paul Calvano",
+    "feed": "https://paulcalvano.com/feed.xml"
   }
 ]
