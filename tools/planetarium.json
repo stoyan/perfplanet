@@ -147,6 +147,11 @@
     "feed": "https://nooshu.github.io/feed.xml"
   },
   {
+    "blog": "https://paulcalvano.com/",
+    "name": "Paul Calvano",
+    "feed": "https://paulcalvano.com/feed.xml"
+  },
+  {
     "blog": "https://www.tunetheweb.com/blog/",
     "name": "Barry Pollard",
     "feed": "https://www.tunetheweb.com/blog/rss.xml",
