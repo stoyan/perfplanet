@@ -30,7 +30,7 @@ for(var i = 0, fella = folks[0]; i < folks.length; fella = folks[++i]) {
 
 result = template.
   replace(
-    /<link rel="stylesheet" href="perfplanet.css">/, 
+    /<link rel="stylesheet" href="perfplanet.css" \/>/, 
     "<style>" + cssmin(css) + "</style>"
   ).
   replace(
