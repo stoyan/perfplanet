@@ -65,12 +65,6 @@
     "twitter": "cdnplanet"
   },
   {
-    "blog": "https://blog.catchpoint.com/",
-    "name": "Catchpoint Blog",
-    "feed": "https://blog.catchpoint.com/category/performance-operations/feed",
-    "twitter": "catchpoint"
-  },
-  {
     "blog": "https://tobias.is/blogging/",
     "name": "Tobias Baldauf",
     "feed": "https://tobias.is/feed/index.xml",

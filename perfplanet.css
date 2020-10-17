@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    sans-serif;
   font-size: 18px;
   line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
@@ -28,21 +32,26 @@ a:hover {
 }
 
 .logo img {
-  width: 150px;
+  width: 130px;
+}
+
+.body {
+  padding: 12px;
 }
 
 .slogan {
   color: darkgray;
-  font-size: 28px;
   font-variation-settings: 'opsz' 20, 'GRAD' 400, 'YAXS' 400;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
 }
 
 .header h1 {
-  font-size: 44px;
+  font-size: 32px;
   margin: 0;
   font-variation-settings: 'opsz' 20, 'GRAD' 600, 'YAXS' 400;
-  font-weight: 200;
+  font-weight: 250;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -58,6 +67,10 @@ a:hover {
     margin: 0 auto;
   }
 
+  .header h1 {
+    font-size: 5vw;
+  }
+
   .body {
     width: 700px;
   }
@@ -68,6 +81,15 @@ a:hover {
 
   .sb-card #planetarium {
     column-count: 1;
+  }
+
+  .slogan {
+    font-size: 4vw;
+    font-weight: 250;
+  }
+
+  .logo img {
+    width: 13vw;
   }
 }
 
@@ -107,7 +129,8 @@ a:hover {
   padding-bottom: 14px;
 }
 
-.book, .mic{
+.book,
+.mic {
   text-align: center;
 }
 
@@ -141,4 +164,11 @@ a:hover {
 .ornament b {
   font-size: 70px;
   font-weight: normal;
+}
+
+.blogpost {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
