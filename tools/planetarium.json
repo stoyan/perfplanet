@@ -144,5 +144,10 @@
     "blog": "https://paulcalvano.com/",
     "name": "Paul Calvano",
     "feed": "https://paulcalvano.com/feed.xml"
+  },
+  {
+    "blog": "https://simonhearne.com/",
+    "name": "Simon Hearne",
+    "feed": "https://simonhearne.com/feed.xml"
   }
 ]
