@@ -172,3 +172,11 @@ a:hover {
   text-overflow: ellipsis;
   overflow-wrap: break-word;
 }
+
+.sharing {
+  text-align: center;
+  padding-top: 12px;
+}
+.sharing > a {
+  padding: 10px;
+}
