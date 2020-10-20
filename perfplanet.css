@@ -68,7 +68,7 @@ a:hover {
   }
 
   .header h1 {
-    font-size: 5vw;
+    font-size: min(5vw, 60px);
   }
 
   .body {
@@ -84,7 +84,7 @@ a:hover {
   }
 
   .slogan {
-    font-size: 4vw;
+    font-size: min(4vw, 50px);
     font-weight: 250;
   }
 
