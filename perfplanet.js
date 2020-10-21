@@ -71,11 +71,11 @@ s.onload = function render(o) {
     html += b.description;
     html += '<div class="sharing">';
     html +=
-      '<a target="_blank" href="https://twitter.com/intent/tweet?via=perfplanet&url=' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?via=perfplanet&url=' +
       encodeURIComponent(b.link) +
       '">Tweet</a>';
     html +=
-      '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=' +
       encodeURIComponent(b.link) +
       '">Facebook</a>';
     if (navigator.clipboard) {

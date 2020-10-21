@@ -24,7 +24,7 @@ a:hover {
   display: grid;
   grid-template-columns: min-content auto;
   grid-template-rows: auto auto;
-  gap: 0 2em;
+  gap: 0 2vw;
 }
 
 .logo {
@@ -33,6 +33,7 @@ a:hover {
 
 .logo img {
   width: 130px;
+  height: auto;
 }
 
 .body {
@@ -40,7 +41,7 @@ a:hover {
 }
 
 .slogan {
-  color: darkgray;
+  color: #808080;
   font-variation-settings: 'opsz' 20, 'GRAD' 400, 'YAXS' 400;
   font-weight: 400;
   font-size: 24px;
@@ -52,45 +53,6 @@ a:hover {
   margin: 0;
   font-variation-settings: 'opsz' 20, 'GRAD' 600, 'YAXS' 400;
   font-weight: 250;
-}
-
-@media only screen and (min-width: 1000px) {
-  .page {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  .header {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
-  .header h1 {
-    font-size: min(5vw, 60px);
-  }
-
-  .body {
-    width: 700px;
-  }
-
-  .sidebar {
-    width: 240px;
-  }
-
-  .sb-card #planetarium {
-    column-count: 1;
-  }
-
-  .slogan {
-    font-size: min(4vw, 50px);
-    font-weight: 250;
-  }
-
-  .logo img {
-    width: 13vw;
-  }
 }
 
 .title {
@@ -144,6 +106,13 @@ a:hover {
   column-count: 2;
 }
 
+#planetarium a,
+.calendar-list a {
+  margin: 6px 0;
+  display: inline-table;
+  font-size: 20px;
+}
+
 .footer {
   background: #01146d;
   color: white;
@@ -179,4 +148,49 @@ a:hover {
 }
 .sharing > a {
   padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .page {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .header h1 {
+    font-size: min(5vw, 60px);
+    line-height: 1;
+  }
+
+  .body {
+    width: 700px;
+  }
+
+  .sidebar {
+    width: 240px;
+  }
+
+  .sb-card #planetarium {
+    column-count: 1;
+  }
+
+  .slogan {
+    font-size: min(4vw, 50px);
+    font-weight: 250;
+  }
+
+  .logo img {
+    width: min(180px, 13vw);
+  }
+  #planetarium a,
+  .calendar-list a {
+    margin: 2px 0;
+    font-size: inherit;
+  }
 }
