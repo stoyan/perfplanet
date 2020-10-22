@@ -125,14 +125,25 @@ a:hover {
 }
 
 .ornament {
-  color: #ccc;
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: 200;
   text-align: center;
+  color: #ccc;
+  position: relative;
 }
 
 .ornament b {
-  font-size: 70px;
-  font-weight: normal;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 2px -5px;
+  position: absolute;
+}
+
+.ornament i {
+  font-size: 20px;
+  font-style: normal;
+  position: absolute;
+  margin: 10px 44px;
 }
 
 .blogpost {

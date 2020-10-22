@@ -82,7 +82,7 @@ s.onload = function render(o) {
       html += '<a href="javascript:navigator.clipboard.writeText(\''+encodeURIComponent(b.link)+'\')">Copy URL</a>';
     }
     html += '</div>';
-    html += '<div class="ornament">&#9734; <b>&#9734;</b> &#9734;</div>';
+    html += '<div class="ornament">&#9734; <b>&#9734;</b> <i>&#9734;</i></div>';
     html += '</div>';
   }
 
