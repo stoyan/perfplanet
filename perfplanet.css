@@ -137,7 +137,7 @@ a:hover {
   font-weight: 200;
   margin: 2px -5px;
   position: absolute;
-  transform: rotate(-10deg)
+  transform: rotate(-13deg);
 }
 
 .ornament i {
@@ -145,7 +145,7 @@ a:hover {
   font-style: normal;
   position: absolute;
   margin: 10px 44px;
-  transform: rotate(-30deg)
+  transform: rotate(-30deg);
 }
 
 .blogpost {
