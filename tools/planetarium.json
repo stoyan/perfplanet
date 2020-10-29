@@ -149,5 +149,10 @@
     "blog": "https://simonhearne.com/",
     "name": "Simon Hearne",
     "feed": "https://simonhearne.com/feed.xml"
+  },
+  {
+    "blog": "https://www.ctrl.blog/topic/webperf.html",
+    "name": "Daniel Aleksandersen",
+    "feed": "https://feed.ctrl.blog/topic/webperf.atom"
   }
 ]
