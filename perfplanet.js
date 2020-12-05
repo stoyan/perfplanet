@@ -78,6 +78,10 @@ s.onload = function render(o) {
       '<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=' +
       encodeURIComponent(b.link) +
       '">Facebook</a>';
+    html +=
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/sharing/share-offsite/?url=' +
+      encodeURIComponent(b.link) +
+      '">LinkedIn</a>';
     if (navigator.clipboard) {
       html += '<a href="javascript:navigator.clipboard.writeText(\''+encodeURIComponent(b.link)+'\')">Copy URL</a>';
     }
