@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    sans-serif;
   font-size: 18px;
   line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +24,7 @@ a:hover {
   display: grid;
   grid-template-columns: min-content auto;
   grid-template-rows: auto auto;
-  gap: 0 2em;
+  gap: 0 2vw;
 }
 
 .logo {
@@ -28,47 +32,27 @@ a:hover {
 }
 
 .logo img {
-  width: 150px;
+  width: 130px;
+  height: auto;
+}
+
+.body {
+  padding: 12px;
 }
 
 .slogan {
-  color: darkgray;
-  font-size: 28px;
+  color: #808080;
   font-variation-settings: 'opsz' 20, 'GRAD' 400, 'YAXS' 400;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
 }
 
 .header h1 {
-  font-size: 44px;
+  font-size: 32px;
   margin: 0;
   font-variation-settings: 'opsz' 20, 'GRAD' 600, 'YAXS' 400;
-  font-weight: 200;
-}
-
-@media only screen and (min-width: 1000px) {
-  .page {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  .header {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
-  .body {
-    width: 700px;
-  }
-
-  .sidebar {
-    width: 240px;
-  }
-
-  .sb-card #planetarium {
-    column-count: 1;
-  }
+  font-weight: 250;
 }
 
 .title {
@@ -107,7 +91,8 @@ a:hover {
   padding-bottom: 14px;
 }
 
-.book, .mic{
+.book,
+.mic {
   text-align: center;
 }
 
@@ -119,6 +104,13 @@ a:hover {
 #planetarium {
   padding-left: 20px;
   column-count: 2;
+}
+
+#planetarium a,
+.calendar-list a {
+  margin: 6px 0;
+  display: inline-table;
+  font-size: 20px;
 }
 
 .footer {
@@ -133,12 +125,85 @@ a:hover {
 }
 
 .ornament {
-  color: #ccc;
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: 200;
   text-align: center;
+  color: #ccc;
+  position: relative;
 }
 
 .ornament b {
-  font-size: 70px;
-  font-weight: normal;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 2px -5px;
+  position: absolute;
+  transform: rotate(-13deg);
+}
+
+.ornament i {
+  font-size: 20px;
+  font-style: normal;
+  position: absolute;
+  margin: 10px 44px;
+  transform: rotate(-30deg);
+}
+
+.blogpost {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+}
+
+.sharing {
+  text-align: center;
+  padding-top: 12px;
+}
+.sharing > a {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .page {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .header h1 {
+    font-size: min(5vw, 60px);
+    line-height: 1;
+  }
+
+  .body {
+    width: 700px;
+  }
+
+  .sidebar {
+    width: 240px;
+  }
+
+  .sb-card #planetarium {
+    column-count: 1;
+  }
+
+  .slogan {
+    font-size: min(4vw, 50px);
+    font-weight: 250;
+  }
+
+  .logo img {
+    width: min(180px, 13vw);
+  }
+  #planetarium a,
+  .calendar-list a {
+    margin: 2px 0;
+    font-size: inherit;
+  }
 }

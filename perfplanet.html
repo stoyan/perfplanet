@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Planet Performance</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Performance Feed</title>
     <meta name="author" content="Stoyan Stefanov" />
+    <meta
+      property="og:description"
+      name="description"
+      content="News and views from the web performance blogosphere"
+    />
+    <meta property="og:url" content="https://feed.perfplanet.com/" />
+    <meta property="og:image" content="https://feed.perfplanet.com/logo.png" />
+    <meta property="og:title" content="Planet Performance Feed" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -15,7 +26,12 @@
   <body>
     <div class="header">
       <div class="logo">
-        <img src="logo.png" alt="Planet Performance logo" />
+        <img
+          src="logo.png"
+          width="130"
+          height="130"
+          alt="Planet Performance logo"
+        />
       </div>
       <h1>Planet Performance Feed</h1>
       <div class="slogan">
@@ -60,7 +76,13 @@
               <a href="https://podcast.perfplanet.com">podcast.perfplanet.com</a
               >.
             </p>
-              <p class="mic"><a href="https://podcast.perfplanet.com"><img src="mic.png" /></a></p>
+            <p class="mic">
+              <a
+                href="https://podcast.perfplanet.com"
+                title="Listen to podcast episodes"
+                ><img alt="Microphone icon" src="mic.png"
+              /></a>
+            </p>
           </div>
         </div>
 
@@ -75,7 +97,7 @@
                 href="https://www.amazon.com/dp/1449332919/?tag=w3clubs-20"
                 title="Web Performance Daybook on Amazon"
                 ><img
-                  width="100"
+                  width="150"
                   src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif"
                   alt="perfplanet's book"
               /></a>
@@ -86,9 +108,7 @@
           <h3>Performance Calendar</h3>
           <div class="calendar">
             <ul class="calendar-list col3">
-              <li>
-                <a href="http://calendar.perfplanet.com/contribute/">2020</a>
-              </li>
+              <li><a href="http://calendar.perfplanet.com/2020/">2020</a></li>
               <li><a href="http://calendar.perfplanet.com/2019/">2019</a></li>
               <li><a href="http://calendar.perfplanet.com/2018/">2018</a></li>
               <li><a href="http://calendar.perfplanet.com/2017/">2017</a></li>
@@ -109,19 +129,26 @@
     <div class="footer">
       <p>
         <a href="https://perfplanet.com">Planet Performance</a> is a project by
-        <a href="https://www.phpied.com/" title="visit my blog"
+        <a href="https://www.phpied.com/" title="Visit my blog"
           >Stoyan Stefanov</a
         >
-        <a class="e" href="mailto:ssttoo@gmail.com" title="email me">&#9993;</a>
-        <a
-          class="e"
-          href="https://twitter.com/stoyanstefanov"
-          title="follow my tweets"
+        <a href="mailto:ssttoo@gmail.com" title="Email me">&#9993;</a>
+        <a href="https://twitter.com/stoyanstefanov" title="follow my tweets"
           >&#9835;</a
         >
-        <a class="rss" href="rss.xml" title="RSS feed for Planet Performance"
-          >RSS</a
+      </p>
+      <p>
+        Keep up with web performance news via
+        <a href="rss.xml" title="RSS feed for Planet Performance">RSS</a>,
+        <a href="https://twitter.com/perfplanet" title="Follow perfplanet"
+          >@perfplanet</a
+        >, or
+        <a
+          href="https://www.facebook.com/webperfplanet"
+          title="Perfplanet on Facebook"
         >
+          Facebook
+        </a>
       </p>
     </div>
 

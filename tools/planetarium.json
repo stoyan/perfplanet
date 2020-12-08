@@ -65,12 +65,6 @@
     "twitter": "cdnplanet"
   },
   {
-    "blog": "https://blog.catchpoint.com/",
-    "name": "Catchpoint Blog",
-    "feed": "https://blog.catchpoint.com/category/performance-operations/feed",
-    "twitter": "catchpoint"
-  },
-  {
     "blog": "https://tobias.is/blogging/",
     "name": "Tobias Baldauf",
     "feed": "https://tobias.is/feed/index.xml",
@@ -156,5 +150,15 @@
     "name": "Barry Pollard",
     "feed": "https://www.tunetheweb.com/blog/rss.xml",
     "twitter": "tunetheweb"
+  },
+  {
+    "blog": "https://simonhearne.com/",
+    "name": "Simon Hearne",
+    "feed": "https://simonhearne.com/feed.xml"
+  },
+  {
+    "blog": "https://www.ctrl.blog/topic/webperf.html",
+    "name": "Daniel Aleksandersen",
+    "feed": "https://feed.ctrl.blog/topic/webperf.atom"
   }
 ]

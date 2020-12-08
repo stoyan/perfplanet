@@ -85,8 +85,11 @@ function xmlentities($string) {
 }
 
 if (!empty($data)) {
-  file_put_contents(__DIR__ . '/../data.js', 'var data = ' . json_encode($data));
+  file_put_contents(__DIR__ . '/../data.js', 'var data = ' . json_encode($data, JSON_INVALID_UTF8_SUBSTITUTE));
   file_put_contents(__DIR__ . '/../rss.xml', str_replace('%%STUFFS%%', implode("\n", $rss), $rssout));
+  file_put_contents(
+    __DIR__ . '/../../perfplanet.com/feed.js', 
+    'var data = ' . json_encode(array_slice($data, 0, 3), JSON_INVALID_UTF8_SUBSTITUTE));
   exit(0);
 }
 exit(1);
