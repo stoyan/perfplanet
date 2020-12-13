@@ -146,6 +146,12 @@
     "feed": "https://paulcalvano.com/feed.xml"
   },
   {
+    "blog": "https://www.tunetheweb.com/blog/",
+    "name": "Barry Pollard",
+    "feed": "https://www.tunetheweb.com/blog/rss.xml",
+    "twitter": "tunetheweb"
+  },
+  {
     "blog": "https://simonhearne.com/",
     "name": "Simon Hearne",
     "feed": "https://simonhearne.com/feed.xml"
