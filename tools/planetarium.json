@@ -111,9 +111,9 @@
     "feed": "https://feeds.feedburner.com/csswizardry"
   },
   {
-    "blog": "https://phabricator.wikimedia.org/phame/blog/view/7/",
-    "name": "Speed of thought",
-    "feed": "https://phabricator.wikimedia.org/phame/blog/feed/7/"
+    "blog": "https://techblog.wikimedia.org/category/performance/",
+    "name": "Wikimedia Performance",
+    "feed": "https://techblog.wikimedia.org/category/performance/feed/"
   },
   {
     "blog": "https://calibreapp.com/blog/category/web-platform",
