@@ -160,5 +160,10 @@
     "blog": "https://www.ctrl.blog/topic/webperf.html",
     "name": "Daniel Aleksandersen",
     "feed": "https://feed.ctrl.blog/topic/webperf.atom"
+  },
+  {
+    "blog": "https://blog.webpagetest.org/",
+    "name": "The WebPageTest Blog",
+    "feed": "https://blog.webpagetest.org/feed.xml"
   }
 ]
