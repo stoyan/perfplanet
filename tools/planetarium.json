@@ -165,5 +165,10 @@
     "blog": "https://blog.webpagetest.org/",
     "name": "The WebPageTest Blog",
     "feed": "https://blog.webpagetest.org/feed.xml"
+  },
+  {
+    "blog": "https://www.robinosborne.co.uk/tag/webperf/",
+    "name": "Robin Osborne",
+    "feed": "https://www.robinosborne.co.uk/tag/webperf/feed/"
   }
 ]
