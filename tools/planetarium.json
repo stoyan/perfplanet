@@ -164,5 +164,10 @@
     "blog": "https://www.robinosborne.co.uk/tag/webperf/",
     "name": "Robin Osborne",
     "feed": "https://www.robinosborne.co.uk/tag/webperf/feed/"
+  },
+  {
+    "blog": "https://www.smashingmagazine.com/category/performance/",
+    "name": "Smashing Magazine",
+    "feed": "https://www.smashingmagazine.com/category/performance/index.xml"
   }
 ]
