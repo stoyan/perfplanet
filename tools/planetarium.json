@@ -174,5 +174,11 @@
     "blog": "https://boris.schapira.dev/en/web/",
     "name": "Boris Schapira",
     "feed": "https://boris.schapira.dev/en/web/feed.xml"
+  },
+  {
+    "blog": "https://www.debugbear.com/blog",
+    "name": "DebugBear Blog",
+    "feed": "https://www.debugbear.com/blog/rss.xml",
+    "twitter": "debugbear"
   }
 ]
