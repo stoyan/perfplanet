@@ -1,5 +1,12 @@
 [
   {
+    "blog": "https://medium.com/web-performance-for-developers",
+    "name": "Leon Fayer",
+    "feed": "https://medium.com/feed/web-performance-for-developers",
+    "twitter": "papa_fire"
+    
+  },
+  {
     "blog": "https://www.aaronpeters.nl/blog/",
     "name": "Aaron Peters",
     "feed": "https://www.aaronpeters.nl/rss/feed.xml",
