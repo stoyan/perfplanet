@@ -175,5 +175,11 @@
     "blog": "https://boris.schapira.dev/en/web/",
     "name": "Boris Schapira",
     "feed": "https://boris.schapira.dev/en/web/feed.xml"
-  }
+  },
+    {
+    "blog": "https://murshidmuzamil.com/blog/",
+    "name": "Murshid Muzamil",
+    "feed": "https://murshidmuzamil.com/rss.xml",
+    "twitter": "murshidmuzamil"
+  },
 ]
