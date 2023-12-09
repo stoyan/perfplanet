@@ -83,12 +83,6 @@
     "twitter": "yoavweiss"
   },
   {
-    "blog": "https://rigor.com/blog",
-    "name": "Rigor",
-    "feed": "https://rigor.com/feed",
-    "twitter": "TeamRigor"
-  },
-  {
     "blog": "https://lampe2e.blogspot.co.uk/",
     "name": "Colin McKinnon",
     "feed": "https://lampe2e.blogspot.com/feeds/posts/default"
@@ -170,7 +164,7 @@
     "name": "Smashing Magazine",
     "feed": "https://www.smashingmagazine.com/category/performance/index.xml"
   },
-    {
+  {
     "blog": "https://boris.schapira.dev/en/web/",
     "name": "Boris Schapira",
     "feed": "https://boris.schapira.dev/en/web/feed.xml"
@@ -180,5 +174,17 @@
     "name": "DebugBear Blog",
     "feed": "https://www.debugbear.com/blog/rss.xml",
     "twitter": "debugbear"
+  },
+  {
+    "blog": "https://murshidmuzamil.com/blog/",
+    "name": "Murshid Muzamil",
+    "feed": "https://murshidmuzamil.com/rss.xml",
+    "twitter": "murshidmuzamil"
+  },
+  {
+    "blog": "https://medium.com/web-performance-for-developers",
+    "name": "Leon Fayer",
+    "feed": "https://medium.com/feed/web-performance-for-developers",
+    "twitter": "papa_fire"
   }
 ]
