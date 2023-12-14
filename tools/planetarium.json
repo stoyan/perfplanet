@@ -170,6 +170,12 @@
     "feed": "https://boris.schapira.dev/en/web/feed.xml"
   },
   {
+    "blog": "https://www.debugbear.com/blog",
+    "name": "DebugBear Blog",
+    "feed": "https://www.debugbear.com/blog/rss.xml",
+    "twitter": "debugbear"
+  },
+  {
     "blog": "https://murshidmuzamil.com/blog/",
     "name": "Murshid Muzamil",
     "feed": "https://murshidmuzamil.com/rss.xml",
