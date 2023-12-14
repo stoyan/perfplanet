@@ -6,6 +6,12 @@ To contribute:
  
 To build:
 
-$ sh tools/build.sh
+    $ sh tools/build.sh
 
-Node.js is a prerequisite to building
+Node.js is a pre-requisite to building
+
+To run and fetch all feeds:
+
+    $ sh up.sh
+
+SimplePie is a pre-requisite, get the latest from https://github.com/simplepie/simplepie/releases/

@@ -2,5 +2,5 @@
 data.js
 index.html
 rss.xml
-tools/simplepie-1.5
 tools/simplepiecache
+tools/SimplePie.compiled.php

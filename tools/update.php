@@ -1,6 +1,6 @@
 <?php
 //error_reporting(0);
-require_once('simplepie-1.5/autoloader.php');
+require_once('SimplePie.compiled.php');
 
 $blogs = json_decode(file_get_contents(__DIR__ . '/planetarium.json'));
 
@@ -8,6 +8,7 @@ $urls = array();
 foreach($blogs as $blog) {
   $urls[] = $blog->feed;
 }
+
 
 $feed = new SimplePie();
 $feed->set_feed_url($urls);
@@ -34,8 +35,8 @@ EOT;
 $data = array();
 $rss = array();
 foreach ($feed->get_items(0, 50) as $item) {
-  
   $link = $item->get_permalink();
+  
   if (stristr($link, 'calibreapp') && stristr($link, 'release-notes')) {
     continue;
   }
