@@ -188,5 +188,12 @@
     "feed": "https://screenspan.net/rss.xml",
     "twitter": "screenspan",
     "mastodon": "@screenspan@mastodon.green"
+  },  
+  {
+    "blog": "https://imkev.dev",
+    "name": "Kevin Farrugia",
+    "feed": "https://imkev.dev/feed",
+    "twitter": "imkevdev",
+    "mastodon": "@kevinfarrugia@webperf.social"
   }
 ]
