@@ -195,5 +195,12 @@
     "feed": "https://imkev.dev/feed",
     "twitter": "imkevdev",
     "mastodon": "@kevinfarrugia@webperf.social"
+  },  
+  {
+    "blog": "https://sia.codes/",
+    "name": "Sia Karamalegos",
+    "feed": "https://sia.codes/feed/feed.xml",
+    "bluesky": "sia.codes",
+    "mastodon": "@sia@front-end.social"
   }
 ]
