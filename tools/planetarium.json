@@ -202,5 +202,12 @@
     "feed": "https://sia.codes/feed/feed.xml",
     "bluesky": "sia.codes",
     "mastodon": "@sia@front-end.social"
+  },
+  {
+    "blog": "https://infrequently.org/",
+    "name": "Alex Russell",
+    "feed": "https://infrequently.org/tags/performance/feed/feed.xml",
+    "bsky": "infrequently.org",
+    "mastodon": "@slightlyoff@toot.cafe"
   }
 ]
