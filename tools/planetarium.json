@@ -216,5 +216,11 @@
     "feed": "https://blog.patrickmeenan.com/atom.xml",
     "twitter": "patmeenan",
     "bsky": "patmeenan.com"
+  },
+  {
+    "blog": "https://pagegym.com/blog",
+    "name": "Razvan Cojocariu",
+    "feed": "https://pagegym.com/blog.xml",
+    "twitter": "razcoj",
   }
 ]
