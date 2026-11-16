@@ -216,5 +216,11 @@
     "feed": "https://blog.patrickmeenan.com/atom.xml",
     "twitter": "patmeenan",
     "bsky": "patmeenan.com"
+  },
+  {
+    "blog": "https://bra31k.dev/en/blog/",
+    "name": "Sergey Patrakeev",
+    "feed": "https://bra31k.dev/en/rss.xml",
+    "bsky": "bra31k.bsky.social"
   }
 ]
